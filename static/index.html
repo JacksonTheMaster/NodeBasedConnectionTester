@@ -5,358 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Network Tester Dashboard</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
-    <style>
-        :root {
-            --bg-primary: #1a1a1a;
-            --bg-secondary: #252525;
-            --text-primary: #ffffff;
-            --text-secondary: #a0a0a0;
-            --accent: #3498db;
-            --success: #2ecc71;
-            --warning: #f1c40f;
-            --danger: #e74c3c;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-            background-color: var(--bg-primary);
-            color: var(--text-primary);
-            line-height: 1.6;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 30px;
-            padding: 20px;
-            background-color: var(--bg-secondary);
-            border-radius: 10px;
-        }
-
-        .node-status {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            padding: 8px 16px;
-            background-color: rgba(46, 204, 113, 0.2);
-            border-radius: 20px;
-        }
-
-        .status-indicator {
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            background-color: var(--success);
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-
-        .card {
-            background-color: var(--bg-secondary);
-            border-radius: 10px;
-            padding: 20px;
-        }
-
-        .metric-card {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        .metric-title {
-            color: var(--text-secondary);
-            font-size: 0.9em;
-        }
-
-        .metric-value {
-            font-size: 1.8em;
-            font-weight: bold;
-        }
-
-        .metric-unit {
-            color: var(--text-secondary);
-            font-size: 0.8em;
-        }
-
-        .chart-container {
-            position: relative;
-            height: 300px;
-            width: 100%;
-        }
-
-        .table-container {
-            overflow-x: auto;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-
-        th, td {
-            padding: 12px;
-            text-align: left;
-            border-bottom: 1px solid #333;
-        }
-
-        th {
-            color: var(--text-secondary);
-            font-weight: normal;
-        }
-
-        .badge {
-            padding: 4px 8px;
-            border-radius: 12px;
-            font-size: 0.8em;
-        }
-
-        .badge-iperf {
-            background-color: rgba(52, 152, 219, 0.2);
-            color: #3498db;
-        }
-
-        .badge-internet {
-            background-color: rgba(46, 204, 113, 0.2);
-            color: #2ecc71;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
+        <!-- Header with Node Status -->
         <div class="header">
             <h1>Network Tester Dashboard</h1>
-            <div class="node-status">
-                <div class="status-indicator"></div>
-                <span id="nodeId">Node ID: Loading...</span>
+            <div class="node-status-container">
+                <!-- Current node -->
+                <div class="node-status current">
+                    <div class="status-indicator current"></div>
+                    <span id="currentNodeId">Node ID: Loading...</span>
+                </div>
+                <!-- Connected peers (up to 4) -->
+                <div id="connectedPeers"></div>
             </div>
         </div>
 
-        <div class="grid">
-            <div class="card metric-card">
-                <span class="metric-title">Connected Peers</span>
-                <span class="metric-value" id="peerCount">-</span>
-            </div>
-            <div class="card metric-card">
-                <span class="metric-title">Average Bandwidth</span>
-                <span class="metric-value" id="avgBandwidth">-</span>
-                <span class="metric-unit">Mbps</span>
-            </div>
-            <div class="card metric-card">
-                <span class="metric-title">Average Latency</span>
-                <span class="metric-value" id="avgLatency">-</span>
-                <span class="metric-unit">ms</span>
-            </div>
+        <!-- Tabs Navigation -->
+        <div class="tabs-nav" id="nodeTabs">
+            <!-- Tabs will be dynamically added here -->
         </div>
 
-        <div class="grid">
-            <div class="card">
-                <h2>Bandwidth Over Time</h2>
-                <div class="chart-container">
-                    <canvas id="bandwidthChart"></canvas>
+        <!-- Tab Content Template (will be cloned for each node) -->
+        <div class="tab-content-template" style="display: none;">
+            <div class="grid">
+                <div class="card metric-card">
+                    <span class="metric-title">Node-to-Node Bandwidth</span>
+                    <span class="metric-value">-</span>
+                    <span class="metric-unit">Mbps</span>
+                    <span class="metric-detail">Average bandwidth to other nodes</span>
+                </div>
+                <div class="card metric-card">
+                    <span class="metric-title">Internet Bandwidth</span>
+                    <span class="metric-value">-</span>
+                    <span class="metric-unit">Mbps</span>
+                    <span class="metric-detail">Speed test to internet</span>
+                </div>
+                <div class="card metric-card">
+                    <span class="metric-title">Node-to-Node Latency</span>
+                    <span class="metric-value">-</span>
+                    <span class="metric-unit">ms</span>
+                    <span class="metric-detail">Average latency to other nodes</span>
+                </div>
+                <div class="card metric-card">
+                    <span class="metric-title">Internet Latency</span>
+                    <span class="metric-value">-</span>
+                    <span class="metric-unit">ms</span>
+                    <span class="metric-detail">Latency to 8.8.8.8</span>
                 </div>
             </div>
+
+            <div class="grid">
+                <div class="card">
+                    <h2>Bandwidth Over Time</h2>
+                    <div class="chart-container">
+                        <canvas class="bandwidth-chart"></canvas>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Latency Over Time</h2>
+                    <div class="chart-container">
+                        <canvas class="latency-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+
             <div class="card">
-                <h2>Latency Over Time</h2>
-                <div class="chart-container">
-                    <canvas id="latencyChart"></canvas>
+                <h2>Recent Tests</h2>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Time</th>
+                                <th>Type</th>
+                                <th>Target</th>
+                                <th>Bandwidth</th>
+                                <th>Latency</th>
+                                <th>Packet Loss</th>
+                            </tr>
+                        </thead>
+                        <tbody class="results-table"></tbody>
+                    </table>
                 </div>
             </div>
         </div>
 
-        <div class="card">
-            <h2>Recent Tests</h2>
-            <div class="table-container">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Time</th>
-                            <th>Type</th>
-                            <th>Source</th>
-                            <th>Target</th>
-                            <th>Metrics</th>
-                        </tr>
-                    </thead>
-                    <tbody id="resultsTable"></tbody>
-                </table>
-            </div>
-        </div>
+        <!-- Tab Contents -->
+        <div id="tabContents"></div>
     </div>
 
-    <script>
-        // Chart configurations
-        const bandwidthChart = new Chart(document.getElementById('bandwidthChart'), {
-            type: 'line',
-            data: {
-                labels: [],
-                datasets: [{
-                    label: 'Bandwidth (Mbps)',
-                    data: [],
-                    borderColor: '#3498db',
-                    backgroundColor: 'rgba(52, 152, 219, 0.1)',
-                    fill: true,
-                    tension: 0.4
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    legend: {
-                        display: false
-                    }
-                },
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        grid: {
-                            color: 'rgba(255, 255, 255, 0.1)'
-                        },
-                        ticks: {
-                            color: '#a0a0a0'
-                        }
-                    },
-                    x: {
-                        grid: {
-                            color: 'rgba(255, 255, 255, 0.1)'
-                        },
-                        ticks: {
-                            color: '#a0a0a0'
-                        }
-                    }
-                }
-            }
-        });
-
-        const latencyChart = new Chart(document.getElementById('latencyChart'), {
-            type: 'line',
-            data: {
-                labels: [],
-                datasets: [{
-                    label: 'Latency (ms)',
-                    data: [],
-                    borderColor: '#2ecc71',
-                    backgroundColor: 'rgba(46, 204, 113, 0.1)',
-                    fill: true,
-                    tension: 0.4
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    legend: {
-                        display: false
-                    }
-                },
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        grid: {
-                            color: 'rgba(255, 255, 255, 0.1)'
-                        },
-                        ticks: {
-                            color: '#a0a0a0'
-                        }
-                    },
-                    x: {
-                        grid: {
-                            color: 'rgba(255, 255, 255, 0.1)'
-                        },
-                        ticks: {
-                            color: '#a0a0a0'
-                        }
-                    }
-                }
-            }
-        });
-
-        // Utility functions
-        function formatTime(timestamp) {
-            return new Date(timestamp).toLocaleTimeString();
-        }
-
-        function formatNumber(num, decimals = 2) {
-            return num ? num.toFixed(decimals) : '-';
-        }
-
-        // Update dashboard data
-        async function updateDashboard() {
-            try {
-                const [resultsRes, healthRes, peersRes] = await Promise.all([
-                    fetch('/api/results'),
-                    fetch('/api/health'),
-                    fetch('/api/peers')
-                ]);
-
-                const results = await resultsRes.json();
-                const health = await healthRes.json();
-                const peers = await peersRes.json();
-
-                // Update node status
-                document.getElementById('nodeId').textContent = `Node ID: ${health.nodeId}`;
-                document.getElementById('peerCount').textContent = Object.keys(peers).length;
-
-                // Process results
-                const iperfResults = results.filter(r => r.testType === 'iperf');
-                const internetResults = results.filter(r => r.testType === 'internet');
-
-                // Update averages
-                const avgBandwidth = iperfResults.reduce((acc, curr) => acc + curr.bandwidth, 0) / iperfResults.length;
-                const avgLatency = internetResults.reduce((acc, curr) => acc + curr.latency, 0) / internetResults.length;
-
-                document.getElementById('avgBandwidth').textContent = formatNumber(avgBandwidth);
-                document.getElementById('avgLatency').textContent = formatNumber(avgLatency);
-
-                // Update charts
-                bandwidthChart.data.labels = iperfResults.slice(-20).map(r => formatTime(r.timestamp));
-                bandwidthChart.data.datasets[0].data = iperfResults.slice(-20).map(r => r.bandwidth);
-                bandwidthChart.update();
-
-                latencyChart.data.labels = internetResults.slice(-20).map(r => formatTime(r.timestamp));
-                latencyChart.data.datasets[0].data = internetResults.slice(-20).map(r => r.latency);
-                latencyChart.update();
-
-                // Update results table
-                const tableHtml = results.slice(-10).reverse().map(result => `
-                    <tr>
-                        <td>${formatTime(result.timestamp)}</td>
-                        <td><span class="badge badge-${result.testType}">${result.testType}</span></td>
-                        <td>${result.sourceNode}</td>
-                        <td>${result.targetNode}</td>
-                        <td>${result.bandwidth ? formatNumber(result.bandwidth) + ' Mbps' : ''}
-                            ${result.latency ? formatNumber(result.latency) + ' ms' : ''}</td>
-                    </tr>
-                `).join('');
-
-                document.getElementById('resultsTable').innerHTML = tableHtml;
-
-            } catch (error) {
-                console.error('Error updating dashboard:', error);
-            }
-        }
-
-        // Initial update and set interval
-        updateDashboard();
-        setInterval(updateDashboard, 5000);
-    </script>
+    <script src="dashboard.js"></script>
 </body>
 </html>
