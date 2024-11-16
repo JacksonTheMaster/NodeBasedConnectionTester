@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"log"
 	"net/http"
 	"os"
@@ -104,11 +105,16 @@ func (d *Dashboard) handleHealth(w http.ResponseWriter, r *http.Request) {
 		Status    string    `json:"status"`
 		Timestamp time.Time `json:"timestamp"`
 		NodeID    string    `json:"nodeId"`
+		NodeIP    string    `json:"nodeIP"`
 	}{
 		Status:    "healthy",
 		Timestamp: time.Now(),
 		NodeID:    d.node.ID,
+		NodeIP:    d.node.NodeIP, // This should now be set
 	}
+
+	// Debug log to verify response
+	fmt.Printf("[DEBUG] Health response: Status=%s, NodeID=%s, NodeIP=%s", health.Status, health.NodeID, health.NodeIP)
 
 	w.Header().Set("Content-Type", "application/json")
 	if err := json.NewEncoder(w).Encode(health); err != nil {

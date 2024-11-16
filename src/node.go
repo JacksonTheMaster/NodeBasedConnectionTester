@@ -32,12 +32,14 @@ type Peer struct {
 	Address  string    `json:"address"`
 	LastSeen time.Time `json:"lastSeen"`
 	IsActive bool      `json:"isActive"`
+	NodeIP   string    `json:"nodeIPPort"`
 }
 
 // Node represents this instance of the tester
 type Node struct {
 	Config     *Config
 	ID         string
+	NodeIP     string // Add this field
 	peers      map[string]*Peer
 	results    []TestResult
 	listener   net.PacketConn
@@ -54,11 +56,12 @@ func NewNode(cfg *Config) (*Node, error) {
 	n := &Node{
 		Config:     cfg,
 		ID:         cfg.NodeID,
+		NodeIP:     cfg.NodeIP, // Populate NodeIP from the Config
 		peers:      make(map[string]*Peer),
 		results:    make([]TestResult, 0),
 		testRunner: testRunner,
 	}
-
+	log.Printf("[DEBUG] Node initialized: ID=%s, IP=%s", n.ID, n.NodeIP)
 	// Try to load previous results
 	if err := n.LoadData(); err != nil {
 		log.Printf("[DEBUG] No previous data found or error loading: %v", err)
@@ -456,6 +459,7 @@ func (n *Node) handleDiscoveryMessage(data []byte, addr net.Addr) error {
 			ID:       msg.NodeID,
 			Address:  addr.String(),
 			IsActive: true,
+			NodeIP:   n.NodeIP, // Populate the NodeIP
 		}
 		n.peers[msg.NodeID] = peer
 		log.Printf("[DEBUG] Discovered new peer: %s at %s", msg.NodeID, addr.String())
