@@ -1,0 +1,11 @@
+# config1.yaml
+nodeId: "node1"
+listenAddr: ":7777"
+iperfPort: 5201
+knownPeers:
+  - "localhost:7778"
+dataFile: "node1_data.json"
+testConfig:
+  iperfInterval: 30
+  mLabInterval: 300
+  targetBandwidth: "1Gbps"

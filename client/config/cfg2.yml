@@ -1,0 +1,10 @@
+nodeId: "node2"
+listenAddr: ":7778"
+iperfPort: 5202
+knownPeers:
+  - "localhost:7777"
+dataFile: "node2_data.json"
+testConfig:
+  iperfInterval: 30
+  mLabInterval: 300
+  targetBandwidth: "1Gbps"

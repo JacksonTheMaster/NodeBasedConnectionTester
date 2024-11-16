@@ -1,0 +1,92 @@
+[
+  {
+    "timestamp": "2024-11-16T17:34:27.966657878+01:00",
+    "testType": "iperf",
+    "sourceNode": "node2",
+    "targetNode": "node1",
+    "bandwidth": 64895.61585085613,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:34:35.163943003+01:00",
+    "testType": "internet",
+    "sourceNode": "node2",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.47,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:34:57.966865546+01:00",
+    "testType": "iperf",
+    "sourceNode": "node2",
+    "targetNode": "node1",
+    "bandwidth": 72011.48689329438,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:35:05.17443008+01:00",
+    "testType": "internet",
+    "sourceNode": "node2",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.586,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:35:27.966624995+01:00",
+    "testType": "iperf",
+    "sourceNode": "node2",
+    "targetNode": "node1",
+    "bandwidth": 67429.41143507062,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:35:35.163302572+01:00",
+    "testType": "internet",
+    "sourceNode": "node2",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.555,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:35:57.965903529+01:00",
+    "testType": "iperf",
+    "sourceNode": "node2",
+    "targetNode": "node1",
+    "bandwidth": 67051.08761729299,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:36:05.164964282+01:00",
+    "testType": "internet",
+    "sourceNode": "node2",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.525,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:36:27.966551357+01:00",
+    "testType": "iperf",
+    "sourceNode": "node2",
+    "targetNode": "node1",
+    "bandwidth": 72112.53033555958,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:36:35.164792217+01:00",
+    "testType": "internet",
+    "sourceNode": "node2",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.703,
+    "packetLoss": 0
+  }
+]
