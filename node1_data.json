@@ -1,344 +1,6811 @@
 [
   {
-    "timestamp": "2024-11-16T17:34:00.767774098+01:00",
+    "timestamp": "2024-11-16T18:41:03.030828431+01:00",
     "testType": "iperf",
-    "sourceNode": "node1",
-    "targetNode": "node2",
-    "bandwidth": 94699.65342926788,
+    "sourceNode": "futterkuche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 84755.19278245773,
     "latency": 0,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:34:07.963610424+01:00",
+    "timestamp": "2024-11-16T18:41:43.471633256+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 77918.37353132467,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T18:41:50.673336938+01:00",
     "testType": "internet",
-    "sourceNode": "node1",
+    "sourceNode": "futterküche",
     "targetNode": "8.8.8.8",
     "bandwidth": 0,
-    "latency": 21.738,
+    "latency": 21.61,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:34:30.767923813+01:00",
+    "timestamp": "2024-11-16T18:42:13.471235814+01:00",
     "testType": "iperf",
-    "sourceNode": "node1",
-    "targetNode": "node2",
-    "bandwidth": 69103.99826563399,
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 97269.26754829909,
     "latency": 0,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:34:37.973493148+01:00",
+    "timestamp": "2024-11-16T18:42:20.673302587+01:00",
     "testType": "internet",
-    "sourceNode": "node1",
+    "sourceNode": "futterküche",
     "targetNode": "8.8.8.8",
     "bandwidth": 0,
-    "latency": 21.64,
+    "latency": 21.578,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:35:00.7686909+01:00",
+    "timestamp": "2024-11-16T18:42:43.471708455+01:00",
     "testType": "iperf",
-    "sourceNode": "node1",
-    "targetNode": "node2",
-    "bandwidth": 70298.69068197023,
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 90210.747631159,
     "latency": 0,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:35:07.963522537+01:00",
+    "timestamp": "2024-11-16T18:42:50.674362959+01:00",
     "testType": "internet",
-    "sourceNode": "node1",
+    "sourceNode": "futterküche",
     "targetNode": "8.8.8.8",
     "bandwidth": 0,
-    "latency": 21.722,
+    "latency": 21.629,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:35:30.768458412+01:00",
+    "timestamp": "2024-11-16T18:43:13.471067442+01:00",
     "testType": "iperf",
-    "sourceNode": "node1",
-    "targetNode": "node2",
-    "bandwidth": 66582.80038199046,
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 96050.64061520947,
     "latency": 0,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:35:37.964032416+01:00",
+    "timestamp": "2024-11-16T18:43:20.663586155+01:00",
     "testType": "internet",
-    "sourceNode": "node1",
+    "sourceNode": "futterküche",
     "targetNode": "8.8.8.8",
     "bandwidth": 0,
-    "latency": 21.738,
+    "latency": 21.74,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:36:00.767939041+01:00",
+    "timestamp": "2024-11-16T18:44:16.03220953+01:00",
     "testType": "iperf",
-    "sourceNode": "node1",
-    "targetNode": "node2",
-    "bandwidth": 68421.04828635577,
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
     "latency": 0,
-    "packetLoss": 0
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
   },
   {
-    "timestamp": "2024-11-16T17:36:07.963903645+01:00",
+    "timestamp": "2024-11-16T18:44:18.034234203+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T18:44:20.036012704+01:00",
     "testType": "internet",
-    "sourceNode": "node1",
+    "sourceNode": "futterküche",
     "targetNode": "8.8.8.8",
     "bandwidth": 0,
-    "latency": 21.647,
+    "latency": 21.581,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:36:30.767792122+01:00",
+    "timestamp": "2024-11-16T18:44:46.032180166+01:00",
     "testType": "iperf",
-    "sourceNode": "node1",
-    "targetNode": "node2",
-    "bandwidth": 72606.76882683537,
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
     "latency": 0,
-    "packetLoss": 0
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
   },
   {
-    "timestamp": "2024-11-16T17:36:37.963529444+01:00",
+    "timestamp": "2024-11-16T18:44:48.03379844+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T18:44:50.035506014+01:00",
     "testType": "internet",
-    "sourceNode": "node1",
+    "sourceNode": "futterküche",
     "targetNode": "8.8.8.8",
     "bandwidth": 0,
-    "latency": 21.667,
+    "latency": 21.642,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:42:49.770057822+01:00",
+    "timestamp": "2024-11-16T18:45:16.032906354+01:00",
     "testType": "iperf",
-    "sourceNode": "node1",
-    "targetNode": "node2",
-    "bandwidth": 82280.44223292428,
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
     "latency": 0,
-    "packetLoss": 0
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
   },
   {
-    "timestamp": "2024-11-16T17:42:56.973392929+01:00",
+    "timestamp": "2024-11-16T18:45:18.035594419+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T18:45:20.038378884+01:00",
     "testType": "internet",
-    "sourceNode": "node1",
+    "sourceNode": "futterküche",
     "targetNode": "8.8.8.8",
     "bandwidth": 0,
-    "latency": 21.426,
+    "latency": 21.449,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:43:19.769849942+01:00",
+    "timestamp": "2024-11-16T20:39:16.629287521+01:00",
     "testType": "iperf",
-    "sourceNode": "node1",
-    "targetNode": "node2",
-    "bandwidth": 91416.29463467863,
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
     "latency": 0,
-    "packetLoss": 0
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
   },
   {
-    "timestamp": "2024-11-16T17:43:26.963332859+01:00",
+    "timestamp": "2024-11-16T20:39:18.631453771+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:39:20.633005814+01:00",
     "testType": "internet",
-    "sourceNode": "node1",
+    "sourceNode": "futterküche",
     "targetNode": "8.8.8.8",
     "bandwidth": 0,
-    "latency": 21.609,
+    "latency": 21.708,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:43:49.770083842+01:00",
+    "timestamp": "2024-11-16T20:39:46.629394452+01:00",
     "testType": "iperf",
-    "sourceNode": "node1",
-    "targetNode": "node2",
-    "bandwidth": 74753.49541789714,
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
     "latency": 0,
-    "packetLoss": 0
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
   },
   {
-    "timestamp": "2024-11-16T17:43:56.963272914+01:00",
+    "timestamp": "2024-11-16T20:39:48.631654811+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:39:50.634066916+01:00",
     "testType": "internet",
-    "sourceNode": "node1",
+    "sourceNode": "futterküche",
     "targetNode": "8.8.8.8",
     "bandwidth": 0,
-    "latency": 21.489,
+    "latency": 21.649,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:44:19.770089187+01:00",
+    "timestamp": "2024-11-16T20:40:16.628903228+01:00",
     "testType": "iperf",
-    "sourceNode": "node1",
-    "targetNode": "node2",
-    "bandwidth": 92850.29059651283,
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
     "latency": 0,
-    "packetLoss": 0
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
   },
   {
-    "timestamp": "2024-11-16T17:44:26.964188599+01:00",
+    "timestamp": "2024-11-16T20:40:18.630637195+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:40:20.632315476+01:00",
     "testType": "internet",
-    "sourceNode": "node1",
+    "sourceNode": "futterküche",
     "targetNode": "8.8.8.8",
     "bandwidth": 0,
-    "latency": 21.808,
+    "latency": 21.654,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:44:49.769120678+01:00",
+    "timestamp": "2024-11-16T20:40:46.629342124+01:00",
     "testType": "iperf",
-    "sourceNode": "node1",
-    "targetNode": "node2",
-    "bandwidth": 91121.85715354267,
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
     "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:40:48.631403825+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:40:50.632965822+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.661,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:44:56.963469854+01:00",
+    "timestamp": "2024-11-16T20:41:16.629147225+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:41:18.630988464+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:41:20.632775102+01:00",
     "testType": "internet",
-    "sourceNode": "node1",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.592,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:41:46.629469307+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:41:48.631234818+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:41:50.634243471+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.651,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:42:16.629501479+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:42:18.631424629+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:42:20.633503182+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 22.018,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:42:46.629850203+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:42:48.631830109+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:42:50.633649913+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.643,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:43:16.628929762+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:43:18.63090921+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:43:20.632891857+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.624,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:43:46.629399597+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:43:48.631166842+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:43:50.63271245+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.562,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:44:16.629183065+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:44:18.630901054+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:44:20.632159939+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.618,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:44:46.629503776+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:44:48.631451114+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:44:50.63317275+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.608,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:45:16.629952966+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:45:18.631856993+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:45:20.634078727+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.71,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:45:46.628958168+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:45:48.630630415+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:45:50.631962023+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.582,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:46:16.629095909+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:46:18.630976322+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:46:20.632964435+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.646,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:46:46.629367221+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:46:48.630650123+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:46:50.632991933+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.577,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:47:16.629407667+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:47:18.631337157+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:47:20.632955555+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.599,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:47:46.628978604+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:47:48.630761699+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:47:50.632281301+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.562,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:48:16.629206445+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:48:18.630939794+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:48:20.632486142+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.673,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:48:46.629290128+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:48:48.631265275+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:48:50.63297482+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.608,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:49:16.629742369+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:49:18.631111719+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:49:20.633270035+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.637,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:49:46.629320325+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:49:48.631033126+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:49:50.633357569+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.772,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:50:16.62995488+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:50:18.631788152+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:50:20.633932225+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.62,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:50:46.629341761+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:50:48.631299526+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:50:50.63313069+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.515,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:51:16.628986725+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:51:18.630649058+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:51:20.632033633+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.752,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:51:46.629630907+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:51:48.631310873+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:51:50.633031604+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
     "targetNode": "8.8.8.8",
     "bandwidth": 0,
     "latency": 21.655,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:45:19.769160578+01:00",
+    "timestamp": "2024-11-16T20:52:16.629378299+01:00",
     "testType": "iperf",
-    "sourceNode": "node1",
-    "targetNode": "node2",
-    "bandwidth": 44253.127935185425,
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
     "latency": 0,
-    "packetLoss": 0
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
   },
   {
-    "timestamp": "2024-11-16T17:45:26.974598614+01:00",
+    "timestamp": "2024-11-16T20:52:18.631297547+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:52:20.633012094+01:00",
     "testType": "internet",
-    "sourceNode": "node1",
+    "sourceNode": "futterküche",
     "targetNode": "8.8.8.8",
     "bandwidth": 0,
-    "latency": 21.738,
+    "latency": 21.579,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:45:49.769180602+01:00",
+    "timestamp": "2024-11-16T20:52:46.629382734+01:00",
     "testType": "iperf",
-    "sourceNode": "node1",
-    "targetNode": "node2",
-    "bandwidth": 77857.30800583989,
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
     "latency": 0,
-    "packetLoss": 0
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
   },
   {
-    "timestamp": "2024-11-16T17:45:56.964484826+01:00",
+    "timestamp": "2024-11-16T20:52:48.631056278+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:52:50.632808722+01:00",
     "testType": "internet",
-    "sourceNode": "node1",
+    "sourceNode": "futterküche",
     "targetNode": "8.8.8.8",
     "bandwidth": 0,
-    "latency": 21.707,
+    "latency": 21.622,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:46:19.770082369+01:00",
+    "timestamp": "2024-11-16T20:53:16.629823936+01:00",
     "testType": "iperf",
-    "sourceNode": "node1",
-    "targetNode": "node2",
-    "bandwidth": 88822.89786926728,
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
     "latency": 0,
-    "packetLoss": 0
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
   },
   {
-    "timestamp": "2024-11-16T17:46:26.964180266+01:00",
+    "timestamp": "2024-11-16T20:53:18.631622057+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:53:20.633848819+01:00",
     "testType": "internet",
-    "sourceNode": "node1",
+    "sourceNode": "futterküche",
     "targetNode": "8.8.8.8",
     "bandwidth": 0,
-    "latency": 21.561,
+    "latency": 21.696,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:46:49.769419415+01:00",
+    "timestamp": "2024-11-16T20:53:46.629845819+01:00",
     "testType": "iperf",
-    "sourceNode": "node1",
-    "targetNode": "node2",
-    "bandwidth": 91069.31993196919,
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
     "latency": 0,
-    "packetLoss": 0
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
   },
   {
-    "timestamp": "2024-11-16T17:46:56.963759077+01:00",
+    "timestamp": "2024-11-16T20:53:48.631731661+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:53:50.633164085+01:00",
     "testType": "internet",
-    "sourceNode": "node1",
+    "sourceNode": "futterküche",
     "targetNode": "8.8.8.8",
     "bandwidth": 0,
-    "latency": 21.771,
+    "latency": 21.672,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:47:19.769505302+01:00",
+    "timestamp": "2024-11-16T20:54:16.629268519+01:00",
     "testType": "iperf",
-    "sourceNode": "node1",
-    "targetNode": "node2",
-    "bandwidth": 84551.02966231777,
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
     "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:54:18.630855786+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:54:20.632590087+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.584,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:47:26.963533836+01:00",
+    "timestamp": "2024-11-16T20:54:46.629181058+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:54:48.630971206+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:54:50.632497253+01:00",
     "testType": "internet",
-    "sourceNode": "node1",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.604,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:55:16.628983979+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:55:18.630999667+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:55:20.63281125+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.513,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:55:46.629284469+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:55:48.631024588+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:55:50.632517263+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.667,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:56:16.628883659+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:56:18.630868191+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:56:20.632161419+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.559,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:56:46.629396419+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:56:48.631207418+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:56:50.632861116+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.483,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:57:16.628879398+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:57:18.630760259+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:57:20.632529952+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.504,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:57:46.62917732+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:57:48.631018129+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:57:50.633086633+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.551,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:58:16.629846377+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:58:18.631551523+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:58:20.632994667+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.671,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:58:46.629656528+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:58:48.631737466+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:58:50.633419502+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.719,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:59:16.629544474+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:59:18.631281793+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:59:20.632788145+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.782,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T20:59:46.628939662+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:59:48.630689955+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T20:59:50.632188598+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.698,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:00:16.629707874+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:00:18.631360364+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:00:20.632784252+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.703,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:00:46.629220079+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:00:48.631080602+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:00:50.632722423+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.6,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:01:16.629629747+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:01:18.631654622+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:01:20.633618946+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.676,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:01:46.629089752+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:01:48.631071143+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:01:50.632620638+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.677,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:02:16.62956683+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:02:18.63119337+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:02:20.632491309+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.652,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:02:46.628891247+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:02:48.630579861+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:02:50.632080675+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.568,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:03:16.629062878+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:03:18.630943094+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:03:20.632541429+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.651,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:03:46.629097941+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:03:48.630842628+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:03:50.632242929+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.576,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:04:16.629486339+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:04:18.631133364+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:04:20.632973815+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.553,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:04:46.629081426+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:04:48.63082296+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:04:50.632483294+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.599,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:05:16.628996134+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:05:18.630822548+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:05:20.632291716+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.622,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:05:46.629216369+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:05:48.631404591+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:05:50.633593512+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.54,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:06:16.629547127+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:06:18.63106173+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:06:20.632647134+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.569,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:06:46.629638258+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:06:48.631083559+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:06:50.63284916+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.7,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:07:16.629709583+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:07:18.631347966+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:07:20.633295671+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.648,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:07:46.629828468+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:07:48.631671762+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:07:50.63305375+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.635,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:08:16.629772138+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:08:18.631354408+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:08:20.633503381+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.556,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:08:46.629228611+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:08:48.631009049+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:08:50.632417186+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.693,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:09:16.629111325+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:09:18.630931692+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:09:20.63279643+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.656,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:09:46.629520061+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:09:48.631297188+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:09:50.632893315+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.6,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:10:16.629012898+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:10:18.630869723+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:10:20.632179346+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.609,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:10:46.628901061+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:10:48.630838761+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:10:50.632734357+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.638,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:11:16.628998803+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:11:18.631172202+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:11:20.632681228+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.514,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:11:46.62962257+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:11:48.63137899+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:11:50.632897208+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.562,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:12:16.629143502+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:12:18.631142572+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:12:20.63262394+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.645,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:12:46.629959865+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:12:48.63127477+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:12:50.633080369+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.75,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:13:16.628969844+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:13:18.630911154+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:13:20.632364282+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.695,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:13:46.629123389+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:13:48.631330616+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:13:50.634041145+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.714,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:14:16.62989116+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:14:18.631681388+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:14:20.633021015+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.653,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:14:46.628933903+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:14:48.630753848+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:14:50.632356392+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.651,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:15:16.629783279+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:15:18.631281459+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:15:20.632833186+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.682,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:15:46.629819954+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:15:48.63170478+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:15:50.634105026+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.551,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:16:16.628914303+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:16:18.630819033+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:16:20.632377951+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.649,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:16:46.629033061+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:16:48.630858273+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:16:50.632405235+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.634,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:17:16.629547585+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:17:18.631587078+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:17:20.633960728+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.703,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:17:46.629475139+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:17:48.630883439+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:17:50.632671653+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.611,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:18:16.629335084+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:18:18.63137389+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:18:20.632892476+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.61,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:18:46.629729342+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:18:48.631499105+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:18:50.633227468+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.601,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:19:16.62940799+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:19:18.631185869+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:19:20.63297919+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.671,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:19:46.629640176+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:19:48.6319134+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:19:50.633385103+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.593,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:20:16.629501598+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:20:18.631288511+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:20:20.632677013+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.547,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:20:46.629735644+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:20:48.631287965+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:20:50.633224251+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.622,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:21:16.629176845+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:21:18.630969361+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:21:20.633342929+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.66,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:21:46.6290427+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:21:48.630975166+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:21:50.632946334+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.55,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:22:16.629861891+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:22:18.631116692+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:22:20.632447045+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.684,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:22:46.629580226+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:22:48.631501967+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:22:50.633351446+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.628,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:23:16.62940252+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:23:18.631158189+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:23:20.632941338+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.662,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:23:46.629925405+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:23:48.631315991+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:23:50.633009584+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.531,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:24:16.62915438+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:24:18.630423899+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:24:20.63272414+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.517,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:24:46.629262681+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:24:48.631131154+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:24:50.632805343+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.672,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:25:16.629726737+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:25:18.632048854+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:25:20.633839881+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.593,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:25:46.629061533+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:25:48.631025727+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:25:50.632589312+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.592,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:26:16.629855467+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:26:18.631625122+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:26:20.633444278+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.598,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:26:46.629133849+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:26:48.630977425+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:26:50.632929963+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.678,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:27:16.629187753+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:27:18.630955362+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:27:20.632501481+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.601,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:27:46.629618143+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:27:48.631584337+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:27:50.633784134+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.53,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:28:16.629914792+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:28:18.631774077+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:28:20.633646362+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.69,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:28:46.628975548+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:28:48.630360837+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:28:50.631716425+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.559,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:29:16.629454441+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:29:18.631380882+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:29:20.632954832+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.685,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:29:46.628972178+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:29:48.630754872+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:29:50.63276807+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.679,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:30:16.629328443+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:30:18.631437453+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:30:20.632987254+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.688,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:30:46.629042348+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:30:48.63102393+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:30:50.632481482+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.517,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:31:16.629339885+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:31:18.631108897+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:31:20.633350417+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.626,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:31:46.629570613+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:31:48.630938353+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:31:50.632408694+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.55,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:32:16.629366558+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:32:18.631068905+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:32:20.632797852+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.614,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:32:46.629020728+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:32:48.631295433+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:32:50.633192038+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.636,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:33:16.629707905+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:33:18.631496456+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:33:20.633039105+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.562,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:33:46.629611606+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:33:48.631413432+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:33:50.633135757+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.858,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:34:16.628961833+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:34:18.630356342+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:34:20.632902965+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.752,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:34:46.628917244+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:34:48.630118264+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:34:50.631679315+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.529,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:35:16.629466322+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:35:18.631700978+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:35:20.633153123+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.653,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:35:46.629238729+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:35:48.631008121+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:35:50.633440522+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.589,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:36:16.629947351+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:36:18.631890135+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:36:20.633284713+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.559,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:36:46.628962827+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:36:48.630787351+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:36:50.632194296+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.667,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:37:16.629458172+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:37:18.631431706+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:37:20.63334624+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.619,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:37:46.629472418+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:37:48.631231289+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:37:50.632868759+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.651,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:38:16.629102458+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:38:18.630892504+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:38:20.632254107+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.68,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:38:46.629017873+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:38:48.630936987+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:38:50.632375048+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.49,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:39:16.629205694+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:39:18.630579533+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:39:20.632237276+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.739,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:39:46.629419647+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:39:48.631465988+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:39:50.633021924+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.661,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:40:16.629032266+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:40:18.630778902+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:40:20.632407566+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.591,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:40:46.629820496+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:40:48.631026397+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:40:50.632421113+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.715,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:41:16.629525372+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:41:18.631547987+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:41:20.633102597+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.61,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:41:46.629769722+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:41:48.631511971+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:41:50.632795515+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.672,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:42:16.629800238+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:42:18.631610428+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:42:20.633006012+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.607,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:42:46.629302558+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:42:48.631120302+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:42:50.633051555+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.687,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:43:16.629474965+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:43:18.631200739+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:43:20.63263161+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.719,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:43:46.628913647+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:43:48.63064864+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:43:50.632105931+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.551,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:44:16.629785805+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:44:18.631583256+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:44:20.633572339+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.784,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:44:46.629699978+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:44:48.631572248+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:44:50.632814929+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.527,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:45:16.628920429+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:45:18.630586291+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:45:20.632124852+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.627,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:45:46.628964627+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:45:48.630926779+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:45:50.633006332+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.609,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:46:16.629696618+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:46:18.631533243+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:46:20.633079291+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.612,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:46:46.629349343+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:46:48.631020343+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:46:50.632371418+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
     "targetNode": "8.8.8.8",
     "bandwidth": 0,
     "latency": 21.575,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:47:49.769220822+01:00",
+    "timestamp": "2024-11-16T21:47:16.628919893+01:00",
     "testType": "iperf",
-    "sourceNode": "node1",
-    "targetNode": "node2",
-    "bandwidth": 84834.71553360835,
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
     "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:47:18.630648001+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:47:20.633347417+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.646,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:47:56.96336854+01:00",
+    "timestamp": "2024-11-16T21:47:46.62890252+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:47:48.630703454+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:47:50.632179586+01:00",
     "testType": "internet",
-    "sourceNode": "node1",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.722,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:48:16.629183516+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:48:18.630775304+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:48:20.632271472+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.55,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:48:46.629935886+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:48:48.631923706+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:48:50.633649184+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.625,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:49:16.629311612+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:49:18.631102952+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:49:20.633829499+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.632,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:49:46.62953207+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:49:48.63114598+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:49:50.632616189+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.483,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:50:16.629100753+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:50:18.630742873+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:50:20.632279056+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.59,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:50:46.629512952+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:50:48.631421992+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:50:50.632815216+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.57,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:51:16.629149124+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:51:18.630805451+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:51:20.632354078+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.741,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:51:46.629020729+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:51:48.630842422+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:51:50.632539415+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.66,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:52:16.628929727+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:52:18.630703328+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:52:20.632113889+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.489,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:52:46.629881807+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:52:48.631269969+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:52:50.633527259+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.578,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:53:16.629613148+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:53:18.631289373+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:53:20.632659397+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.552,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:53:46.629585761+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:53:48.631314069+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:53:50.632828575+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.56,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:54:16.629686116+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:54:18.631524479+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:54:20.632968918+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.686,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:54:46.629461899+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:54:48.631208783+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:54:50.632688305+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.495,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:55:16.629500957+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:55:18.631222676+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:55:20.632869795+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.639,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:55:46.629261254+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:55:48.631018985+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:55:50.632692216+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.694,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:56:16.628982634+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:56:18.630677091+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:56:20.63204777+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.589,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:56:46.629865889+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:56:48.631832499+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:56:50.634452536+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.606,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:57:16.628961521+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:57:18.631064059+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:57:20.632726393+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 22.132,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:57:46.629783548+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:57:48.631315289+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:57:50.63289843+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.491,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:58:16.629048743+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:58:18.630891192+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:58:20.632691796+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.557,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:58:46.629050486+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:58:48.6309394+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:58:50.632332889+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.588,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:59:16.629792376+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:59:18.631609123+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:59:20.634207474+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 22.864,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T21:59:46.629530972+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:59:48.631533656+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T21:59:50.633778942+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 29.553,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:00:16.629682594+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:00:18.631263587+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:00:20.632727724+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.661,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:00:46.629152546+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:00:48.631050555+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:00:50.632613461+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.626,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:01:16.629401218+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:01:18.630889749+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:01:20.632542081+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.667,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:01:46.629499989+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:01:48.631720086+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:01:50.63332018+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.709,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:02:16.629420424+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:02:18.631316381+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:02:20.63360575+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.732,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:02:46.629132339+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:02:48.63102846+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:02:50.63261408+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.83,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:03:16.629772487+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:03:18.631658604+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:03:20.63315482+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.763,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:03:46.629329756+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:03:48.631135699+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:03:50.633062237+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 25.297,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:04:16.628940675+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:04:18.630802664+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:04:20.632986506+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.656,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:04:46.629803596+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:04:48.631621325+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:04:50.632971452+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.629,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:05:16.628909049+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:05:18.630715271+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:05:20.633304397+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.667,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:05:46.629453928+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:05:48.631309509+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:05:50.633138985+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
     "targetNode": "8.8.8.8",
     "bandwidth": 0,
     "latency": 21.641,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:48:19.769173963+01:00",
+    "timestamp": "2024-11-16T22:06:16.629084284+01:00",
     "testType": "iperf",
-    "sourceNode": "node1",
-    "targetNode": "node2",
-    "bandwidth": 48280.28572594278,
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
     "latency": 0,
-    "packetLoss": 0
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
   },
   {
-    "timestamp": "2024-11-16T17:48:26.964745309+01:00",
+    "timestamp": "2024-11-16T22:06:18.630864379+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:06:20.632238995+01:00",
     "testType": "internet",
-    "sourceNode": "node1",
+    "sourceNode": "futterküche",
     "targetNode": "8.8.8.8",
     "bandwidth": 0,
-    "latency": 21.72,
+    "latency": 21.56,
     "packetLoss": 0
   },
   {
-    "timestamp": "2024-11-16T17:48:49.769776789+01:00",
+    "timestamp": "2024-11-16T22:06:46.629652187+01:00",
     "testType": "iperf",
-    "sourceNode": "node1",
-    "targetNode": "node2",
-    "bandwidth": 56819.764815905175,
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
     "latency": 0,
-    "packetLoss": 0
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
   },
   {
-    "timestamp": "2024-11-16T17:48:56.964494883+01:00",
+    "timestamp": "2024-11-16T22:06:48.631487598+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:06:50.632776507+01:00",
     "testType": "internet",
-    "sourceNode": "node1",
+    "sourceNode": "futterküche",
     "targetNode": "8.8.8.8",
     "bandwidth": 0,
-    "latency": 21.665,
+    "latency": 21.673,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:07:16.629479+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:07:18.631241786+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:07:20.633425674+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.709,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:07:46.629948157+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:07:48.631686063+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:07:50.633956154+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.686,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:08:16.629371914+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:08:18.631119513+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:08:20.632548932+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.669,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:08:46.629901295+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:08:48.631287713+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:08:50.633132933+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.591,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:09:16.629470959+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:09:18.630949731+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:09:20.633312306+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.61,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:09:46.62938675+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:09:48.631205088+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:09:50.632727208+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.61,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:10:16.629216211+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:10:18.630614502+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:10:20.6322576+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.522,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:10:46.629152496+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:10:48.630770894+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:10:50.632129391+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.603,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:11:16.628985814+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:11:18.630890346+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:11:20.632432476+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.671,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:11:46.629242042+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:11:48.631211651+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:11:50.632730144+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.61,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:12:16.629523968+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:12:18.631902676+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:12:20.633424787+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.67,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:12:46.62988894+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:12:48.631316077+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:12:50.632743214+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.62,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:13:16.629450989+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:13:18.630817345+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:13:20.633248306+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.703,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:13:46.629277634+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:13:48.630704302+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:13:50.632346771+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.618,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:14:16.629857248+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:14:18.631688016+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:14:20.633897759+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.724,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:14:46.629364775+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:14:48.631260834+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:14:50.632826682+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.646,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:15:16.629606044+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:15:18.631372287+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:15:20.633281035+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.755,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:15:46.629621348+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:15:48.63142928+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:15:50.633082109+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.671,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:16:16.629752852+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:16:18.631560285+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:16:20.633781619+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.562,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:16:46.629221347+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:16:48.631071111+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:16:50.632942377+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.668,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:17:16.629314453+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:17:18.63077681+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:17:20.632542277+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.765,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:17:46.629749523+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:17:48.630970229+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:17:50.63284879+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.604,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:18:16.629106911+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:18:18.630986448+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:18:20.632504414+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.632,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:18:46.628940347+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:18:48.63064611+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:18:50.632280498+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.695,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:19:16.628975305+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:19:18.630916602+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:19:20.633028304+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.632,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:19:46.62909536+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:19:48.6312388+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:19:50.632836923+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.629,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:20:16.629812561+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:20:18.631618991+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:20:20.633061551+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.636,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:20:46.629005215+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:20:48.630320957+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:20:50.631949406+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.493,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:21:16.629471227+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:21:18.631380156+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:21:20.633296885+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.622,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:21:46.62894264+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:21:48.630792218+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:21:50.632537433+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.71,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:22:16.62891945+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:22:18.630768814+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:22:20.632408381+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.655,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:22:46.629346422+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:22:48.631215392+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:22:50.63264245+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.608,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:23:16.629390102+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:23:18.631114783+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:23:20.632830163+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 22.013,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:23:46.629002974+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:23:48.630898035+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:23:50.632624825+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.505,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:24:16.629120529+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:24:18.630983365+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:24:20.633395229+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.662,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:24:46.629156457+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:24:48.630986037+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:24:50.632639607+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.666,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:25:16.629621161+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:25:18.631429808+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:25:20.63352446+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.629,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:25:46.62899067+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:25:48.630402832+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:25:50.631994492+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.558,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:26:16.629357881+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:26:18.631440795+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:26:20.633287105+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.711,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:26:46.62935222+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:26:48.631283857+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:26:50.632818086+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.498,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:27:16.629897143+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:27:18.631772634+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:27:20.634161134+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.626,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:27:46.629561404+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:27:48.631465771+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:27:50.632970488+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.766,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:28:16.629199263+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:28:18.631006919+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:28:20.632598771+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.594,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:28:46.629159444+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:28:48.631064021+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:28:50.632653093+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.542,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:29:16.629367636+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:29:18.631287626+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:29:20.632876204+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.698,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:29:46.629504271+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:29:48.631453556+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:29:50.633048908+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.66,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:30:16.629077304+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:30:18.630433188+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:30:20.632168677+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.531,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:30:46.629963114+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:30:48.631751829+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:30:50.633287239+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 27.635,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:31:16.628942188+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:31:18.630693642+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:31:20.632088542+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.648,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:31:46.628963782+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:31:48.631006506+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:31:50.632387002+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.644,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:32:16.629894937+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:32:18.632477849+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:32:20.634108046+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.618,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:32:46.629961413+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:32:48.631940417+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:32:50.633551015+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.646,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T22:33:16.62906402+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:33:18.63123915+01:00",
+    "testType": "iperf",
+    "sourceNode": "futterküche",
+    "targetNode": "kassenhaus",
+    "bandwidth": 0,
+    "latency": 0,
+    "packetLoss": 0,
+    "error": "iperf3 error: exit status 1 (stderr: )"
+  },
+  {
+    "timestamp": "2024-11-16T22:33:20.632892497+01:00",
+    "testType": "internet",
+    "sourceNode": "futterküche",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.488,
     "packetLoss": 0
   }
 ]
