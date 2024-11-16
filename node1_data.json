@@ -106,5 +106,239 @@
     "bandwidth": 0,
     "latency": 21.667,
     "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:42:49.770057822+01:00",
+    "testType": "iperf",
+    "sourceNode": "node1",
+    "targetNode": "node2",
+    "bandwidth": 82280.44223292428,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:42:56.973392929+01:00",
+    "testType": "internet",
+    "sourceNode": "node1",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.426,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:43:19.769849942+01:00",
+    "testType": "iperf",
+    "sourceNode": "node1",
+    "targetNode": "node2",
+    "bandwidth": 91416.29463467863,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:43:26.963332859+01:00",
+    "testType": "internet",
+    "sourceNode": "node1",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.609,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:43:49.770083842+01:00",
+    "testType": "iperf",
+    "sourceNode": "node1",
+    "targetNode": "node2",
+    "bandwidth": 74753.49541789714,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:43:56.963272914+01:00",
+    "testType": "internet",
+    "sourceNode": "node1",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.489,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:44:19.770089187+01:00",
+    "testType": "iperf",
+    "sourceNode": "node1",
+    "targetNode": "node2",
+    "bandwidth": 92850.29059651283,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:44:26.964188599+01:00",
+    "testType": "internet",
+    "sourceNode": "node1",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.808,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:44:49.769120678+01:00",
+    "testType": "iperf",
+    "sourceNode": "node1",
+    "targetNode": "node2",
+    "bandwidth": 91121.85715354267,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:44:56.963469854+01:00",
+    "testType": "internet",
+    "sourceNode": "node1",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.655,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:45:19.769160578+01:00",
+    "testType": "iperf",
+    "sourceNode": "node1",
+    "targetNode": "node2",
+    "bandwidth": 44253.127935185425,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:45:26.974598614+01:00",
+    "testType": "internet",
+    "sourceNode": "node1",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.738,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:45:49.769180602+01:00",
+    "testType": "iperf",
+    "sourceNode": "node1",
+    "targetNode": "node2",
+    "bandwidth": 77857.30800583989,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:45:56.964484826+01:00",
+    "testType": "internet",
+    "sourceNode": "node1",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.707,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:46:19.770082369+01:00",
+    "testType": "iperf",
+    "sourceNode": "node1",
+    "targetNode": "node2",
+    "bandwidth": 88822.89786926728,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:46:26.964180266+01:00",
+    "testType": "internet",
+    "sourceNode": "node1",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.561,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:46:49.769419415+01:00",
+    "testType": "iperf",
+    "sourceNode": "node1",
+    "targetNode": "node2",
+    "bandwidth": 91069.31993196919,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:46:56.963759077+01:00",
+    "testType": "internet",
+    "sourceNode": "node1",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.771,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:47:19.769505302+01:00",
+    "testType": "iperf",
+    "sourceNode": "node1",
+    "targetNode": "node2",
+    "bandwidth": 84551.02966231777,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:47:26.963533836+01:00",
+    "testType": "internet",
+    "sourceNode": "node1",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.575,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:47:49.769220822+01:00",
+    "testType": "iperf",
+    "sourceNode": "node1",
+    "targetNode": "node2",
+    "bandwidth": 84834.71553360835,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:47:56.96336854+01:00",
+    "testType": "internet",
+    "sourceNode": "node1",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.641,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:48:19.769173963+01:00",
+    "testType": "iperf",
+    "sourceNode": "node1",
+    "targetNode": "node2",
+    "bandwidth": 48280.28572594278,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:48:26.964745309+01:00",
+    "testType": "internet",
+    "sourceNode": "node1",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.72,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:48:49.769776789+01:00",
+    "testType": "iperf",
+    "sourceNode": "node1",
+    "targetNode": "node2",
+    "bandwidth": 56819.764815905175,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-16T17:48:56.964494883+01:00",
+    "testType": "internet",
+    "sourceNode": "node1",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.665,
+    "packetLoss": 0
   }
 ]
