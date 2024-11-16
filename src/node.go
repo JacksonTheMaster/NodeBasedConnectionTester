@@ -7,6 +7,9 @@ import (
 	"log"
 	"net"
 	"os"
+	"os/exec"
+	"strconv"
+	"strings"
 	"sync"
 	"time"
 )
@@ -33,27 +36,27 @@ type Peer struct {
 
 // Node represents this instance of the tester
 type Node struct {
-	Config   *Config
-	ID       string
-	peers    map[string]*Peer
-	results  []TestResult
-	listener net.PacketConn
-	mu       sync.RWMutex
+	Config     *Config
+	ID         string
+	peers      map[string]*Peer
+	results    []TestResult
+	listener   net.PacketConn
+	testRunner *TestRunner
+	mu         sync.RWMutex
 }
 
 func NewNode(cfg *Config) (*Node, error) {
-	log.Printf("[DEBUG] Creating new node with ID: %s", cfg.NodeID)
-
-	// Start iperf server
-	if err := startIperfServer(cfg.IperfPort); err != nil {
+	testRunner := NewTestRunner(cfg.IperfPort)
+	if err := testRunner.StartIperfServer(); err != nil {
 		return nil, fmt.Errorf("failed to start iperf server: %v", err)
 	}
 
 	n := &Node{
-		Config:  cfg,
-		ID:      cfg.NodeID,
-		peers:   make(map[string]*Peer),
-		results: make([]TestResult, 0),
+		Config:     cfg,
+		ID:         cfg.NodeID,
+		peers:      make(map[string]*Peer),
+		results:    make([]TestResult, 0),
+		testRunner: testRunner,
 	}
 
 	// Try to load previous results
@@ -115,8 +118,7 @@ func (n *Node) Start(ctx context.Context) error {
 func (n *Node) runTests(ctx context.Context) {
 	log.Printf("[DEBUG] Test scheduler starting with iperf interval: %d seconds", n.Config.TestConfig.IperfInterval)
 
-	// Add a random delay at startup based on node ID to prevent test collisions
-	// node1 starts immediately, node2 waits a bit
+	// Add initial delay for node2 to prevent test collisions
 	if n.ID == "node2" {
 		startupDelay := time.Duration(15) * time.Second
 		log.Printf("[DEBUG] Node2 waiting %v before starting tests", startupDelay)
@@ -127,44 +129,89 @@ func (n *Node) runTests(ctx context.Context) {
 		}
 	}
 
+	// Create tickers for different test types
 	iperfTicker := time.NewTicker(time.Duration(n.Config.TestConfig.IperfInterval) * time.Second)
 	internetTicker := time.NewTicker(30 * time.Second)
 	defer iperfTicker.Stop()
 	defer internetTicker.Stop()
 
+	// Start result collector in a single goroutine
+	resultDone := make(chan struct{})
+	go func() {
+		defer close(resultDone)
+		for {
+			select {
+			case <-ctx.Done():
+				return
+			case result, ok := <-n.testRunner.GetResultChannel():
+				if !ok {
+					return
+				}
+				n.AddResult(result)
+				log.Printf("[DEBUG] Recorded test result: type=%s, target=%s, bandwidth=%.2f, latency=%.2f",
+					result.TestType, result.TargetNode, result.Bandwidth, result.Latency)
+			}
+		}
+	}()
+
+	// Test execution loop
 	for {
 		select {
 		case <-ctx.Done():
+			// Wait for result collector to finish
+			<-resultDone
 			return
-		case <-iperfTicker.C:
-			// Add mutex protection for the entire test cycle
-			n.mu.RLock()
-			peerCount := len(n.peers)
-			activePeers := 0
 
-			// Create a slice of active peers to test
+		case <-iperfTicker.C:
+			// Get active peers under mutex protection
+			n.mu.RLock()
 			var activePeerList []*Peer
 			for _, peer := range n.peers {
 				if peer.IsActive {
-					activePeers++
 					activePeerList = append(activePeerList, peer)
 				}
 			}
+			peerCount := len(n.peers)
+			activePeers := len(activePeerList)
 			n.mu.RUnlock()
 
-			log.Printf("[DEBUG] Running scheduled iperf tests")
-
-			// Run tests sequentially with a small delay between each
-			for _, peer := range activePeerList {
-				log.Printf("[DEBUG] Running iperf test with peer %s at %s", peer.ID, peer.Address)
-				result := runIperfTest(peer, n.Config.IperfPort)
-				n.AddResult(result)
-
-				// Small delay between tests
-				time.Sleep(2 * time.Second)
+			if len(activePeerList) == 0 {
+				log.Printf("[DEBUG] No active peers to test")
+				continue
 			}
 
-			log.Printf("[DEBUG] Completed iperf tests. Total peers: %d, Active: %d", peerCount, activePeers)
+			log.Printf("[DEBUG] Starting network tests with %d active peers", len(activePeerList))
+
+			// Create a context with timeout for this test cycle
+			testCtx, cancel := context.WithTimeout(ctx, time.Minute)
+
+			// Run tests for each peer with proper spacing
+			for i, peer := range activePeerList {
+				select {
+				case <-testCtx.Done():
+					log.Printf("[WARN] Test cycle cancelled before completion")
+					cancel()
+					continue
+				default:
+					log.Printf("[DEBUG] Running network tests with peer %s at %s (%d/%d)",
+						peer.ID, peer.Address, i+1, len(activePeerList))
+
+					// Run the tests
+					n.testRunner.RunNetworkTests(testCtx, peer)
+
+					// Add delay between peer tests to prevent network congestion
+					if i < len(activePeerList)-1 { // Don't delay after last peer
+						select {
+						case <-testCtx.Done():
+							continue
+						case <-time.After(2 * time.Second):
+						}
+					}
+				}
+			}
+
+			cancel() // Clean up the test cycle context
+			log.Printf("[DEBUG] Completed network tests. Total peers: %d, Active: %d", peerCount, activePeers)
 
 		case <-internetTicker.C:
 			log.Printf("[DEBUG] Running internet connectivity check")
@@ -177,6 +224,55 @@ func (n *Node) runTests(ctx context.Context) {
 			}
 		}
 	}
+}
+
+// runInternetCheck performs internet connectivity test
+func runInternetCheck() TestResult {
+	result := TestResult{
+		Timestamp:  time.Now(),
+		TestType:   "internet",
+		TargetNode: "8.8.8.8", // Google DNS
+	}
+
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancel()
+
+	// Run 5 pings to Google DNS
+	cmd := exec.CommandContext(ctx, "ping", "-c", "5", "-i", "0.2", "8.8.8.8")
+	output, err := cmd.Output()
+
+	if err != nil {
+		result.Error = fmt.Sprintf("internet check error: %v", err)
+		return result
+	}
+
+	// Parse ping output with more detailed metrics
+	lines := strings.Split(string(output), "\n")
+	for _, line := range lines {
+		if strings.Contains(line, "rtt min/avg/max") {
+			parts := strings.Split(line, "=")
+			if len(parts) == 2 {
+				stats := strings.Split(strings.TrimSpace(parts[1]), "/")
+				if len(stats) >= 4 {
+					if avg, err := strconv.ParseFloat(strings.TrimSpace(stats[1]), 64); err == nil {
+						result.Latency = avg
+					}
+				}
+			}
+		}
+		if strings.Contains(line, "packet loss") {
+			parts := strings.Split(line, ",")
+			for _, part := range parts {
+				if strings.Contains(part, "packet loss") {
+					if pct, err := strconv.ParseFloat(strings.TrimSuffix(strings.TrimSpace(part), "% packet loss"), 64); err == nil {
+						result.PacketLoss = pct
+					}
+				}
+			}
+		}
+	}
+
+	return result
 }
 
 // AddResult adds a test result to the history

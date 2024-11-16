@@ -113,14 +113,15 @@ const updateMetrics = (nodeId, results) => {
     const nodeResults = results.filter(r => r.sourceNode === nodeId);
     const content = document.getElementById(`tab-${nodeId}`);
 
-    // Calculate averages
+    // Filter results by test type
     const iperfResults = nodeResults.filter(r => r.testType === 'iperf');
     const internetResults = nodeResults.filter(r => r.testType === 'internet');
 
+    // Calculate averages only using the filtered results
     const metrics = {
         nodeBandwidth: iperfResults.reduce((acc, curr) => acc + curr.bandwidth, 0) / iperfResults.length || 0,
         nodeLatency: iperfResults.reduce((acc, curr) => acc + (curr.latency || 0), 0) / iperfResults.length || 0,
-        internetLatency: internetResults.reduce((acc, curr) => acc + curr.latency, 0) / internetResults.length || 0
+        internetLatency: internetResults.reduce((acc, curr) => acc + curr.latency, 0) / internetResults.length || 0 // Only using 'internet' testType
     };
 
     // Update metric cards
@@ -132,7 +133,7 @@ const updateMetrics = (nodeId, results) => {
     // Update charts
     const charts = state.charts.get(nodeId);
     if (charts) {
-        // Bandwidth chart
+        // Bandwidth chart (using iperf results)
         const bandwidthData = iperfResults.slice(-20).map(r => ({
             x: new Date(r.timestamp).toLocaleTimeString(),
             y: r.bandwidth
@@ -141,10 +142,10 @@ const updateMetrics = (nodeId, results) => {
         charts.bandwidthChart.data.datasets[0].data = bandwidthData.map(d => d.y);
         charts.bandwidthChart.update();
 
-        // Latency chart
-        const latencyData = nodeResults.slice(-20).map(r => ({
+        // Latency chart (using internet results only for internet latency)
+        const latencyData = internetResults.slice(-20).map(r => ({
             x: new Date(r.timestamp).toLocaleTimeString(),
-            y: r.latency || 0
+            y: r.latency
         }));
         charts.latencyChart.data.labels = latencyData.map(d => d.x);
         charts.latencyChart.data.datasets[0].data = latencyData.map(d => d.y);
