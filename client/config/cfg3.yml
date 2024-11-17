@@ -1,5 +1,5 @@
 nodeId: "büro"
-nodeIPPort: "127.0.0.1:8083"
+nodeIPPort: "localhost:8083"
 nodeHttpPort: "8083"
 listenAddr: ":7779"
 iperfPort: 5203

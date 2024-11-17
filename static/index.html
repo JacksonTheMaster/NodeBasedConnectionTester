@@ -9,54 +9,51 @@
 </head>
 <body>
     <div class="container">
-        <!-- Header with Node Status -->
         <div class="header">
             <h1>Network Tester Dashboard</h1>
+            
             <div class="node-status-container">
-                <!-- Current node -->
                 <div class="node-status current">
                     <div class="status-indicator current"></div>
                     <span id="currentNodeId">Node ID: Loading...</span>
                 </div>
-                <!-- Connected peers (up to 4) -->
                 <div id="connectedPeers"></div>
             </div>
         </div>
-
-        <!-- Tabs Navigation -->
-        <div class="tabs-nav" id="nodeTabs">
-            <!-- Tabs will be dynamically added here -->
-        </div>
-
-        <!-- Tab Content Template (will be cloned for each node) -->
+    
+        <div id="nodeTabs" class="tabs-nav"></div>
+    
         <div class="tab-content-template" style="display: none;">
             <div class="grid">
                 <div class="card metric-card">
-                    <span class="metric-title">Node-to-Node Bandwidth</span>
-                    <span class="metric-value">-</span>
-                    <span class="metric-unit">Mbps</span>
-                    <span class="metric-detail">Average bandwidth to other nodes</span>
+                    <div class="metric-title">Node-to-Node Bandwidth</div>
+                    <div class="metric-value">-</div>
+                    <div class="metric-unit">Mbps</div>
+                    <div class="metric-detail">Average bandwidth to other nodes</div>
                 </div>
+    
                 <div class="card metric-card">
-                    <span class="metric-title">Internet Bandwidth</span>
-                    <span class="metric-value">-</span>
-                    <span class="metric-unit">Mbps</span>
-                    <span class="metric-detail">Speed test to internet</span>
+                    <div class="metric-title">Peak Bandwidth</div>
+                    <div class="metric-value">-</div>
+                    <div class="metric-unit">Mbps</div>
+                    <div class="metric-detail">Highest recorded bandwidth</div>
                 </div>
+    
                 <div class="card metric-card">
-                    <span class="metric-title">Node-to-Node Latency</span>
-                    <span class="metric-value">-</span>
-                    <span class="metric-unit">ms</span>
-                    <span class="metric-detail">Average latency to other nodes</span>
+                    <div class="metric-title">Node-to-Node Latency</div>
+                    <div class="metric-value">-</div>
+                    <div class="metric-unit">ms</div>
+                    <div class="metric-detail">Average latency to other nodes</div>
                 </div>
+    
                 <div class="card metric-card">
-                    <span class="metric-title">Internet Latency</span>
-                    <span class="metric-value">-</span>
-                    <span class="metric-unit">ms</span>
-                    <span class="metric-detail">Latency to 8.8.8.8</span>
+                    <div class="metric-title">Internet Latency</div>
+                    <div class="metric-value">-</div>
+                    <div class="metric-unit">ms</div>
+                    <div class="metric-detail">Latency to 8.8.8.8</div>
                 </div>
             </div>
-
+    
             <div class="grid">
                 <div class="card">
                     <h2>Bandwidth Over Time</h2>
@@ -64,6 +61,7 @@
                         <canvas class="bandwidth-chart"></canvas>
                     </div>
                 </div>
+    
                 <div class="card">
                     <h2>Latency Over Time</h2>
                     <div class="chart-container">
@@ -71,11 +69,11 @@
                     </div>
                 </div>
             </div>
-
+    
             <div class="card">
                 <h2>Recent Tests</h2>
                 <div class="table-container">
-                    <table>
+                    <table class="results-table">
                         <thead>
                             <tr>
                                 <th>Time</th>
@@ -86,13 +84,12 @@
                                 <th>Packet Loss</th>
                             </tr>
                         </thead>
-                        <tbody class="results-table"></tbody>
+                        <tbody></tbody>
                     </table>
                 </div>
             </div>
         </div>
-
-        <!-- Tab Contents -->
+    
         <div id="tabContents"></div>
     </div>
 

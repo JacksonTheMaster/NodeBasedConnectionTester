@@ -215,6 +215,39 @@ th {
     display: block;
 }
 
+/* Add to your existing CSS */
+.badge {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    display: inline-block;
+}
+
+.badge-ping {
+    background-color: rgba(231, 76, 60, 0.2);
+    color: #e74c3c;
+}
+
+.badge-iperf {
+    background-color: rgba(52, 152, 219, 0.2);
+    color: #3498db;
+}
+
+.badge-internet {
+    background-color: rgba(46, 204, 113, 0.2);
+    color: #2ecc71;
+}
+
+/* Add a transition for smoother updates */
+.metric-value {
+    transition: all 0.3s ease;
+}
+
+/* Add some hover effects to the table */
+tr:hover {
+    background-color: var(--bg-tertiary);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .grid {

@@ -1,6 +1,6 @@
 # config1.yaml
 nodeId: "futterküche"
-nodeIPPort: "127.0.0.1:8080"
+nodeIPPort: "localhost:8080"
 nodeHttpPort: "8080"
 listenAddr: ":7777"
 iperfPort: 5201

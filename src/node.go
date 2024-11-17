@@ -406,9 +406,10 @@ func (n *Node) runDiscovery(ctx context.Context) {
 // broadcastPresence sends discovery message to known peers
 func (n *Node) broadcastPresence() {
 	msg := &DiscoveryMessage{
-		NodeID:    n.ID,
-		Timestamp: time.Now(),
-		Type:      "presence",
+		NodeID:       n.ID,
+		Timestamp:    time.Now(),
+		Type:         "presence",
+		NodeHttpPort: n.Config.NodeHttpPort, // Add this
 	}
 
 	data, err := json.Marshal(msg)
@@ -437,9 +438,10 @@ func (n *Node) broadcastPresence() {
 
 // DiscoveryMessage represents a peer discovery message
 type DiscoveryMessage struct {
-	NodeID    string    `json:"nodeId"`
-	Timestamp time.Time `json:"timestamp"`
-	Type      string    `json:"type"`
+	NodeID       string    `json:"nodeId"`
+	Timestamp    time.Time `json:"timestamp"`
+	Type         string    `json:"type"`
+	NodeHttpPort string    `json:"nodeHttpPort"` // Add this
 }
 
 // handleDiscoveryMessage processes incoming discovery messages
@@ -459,7 +461,7 @@ func (n *Node) handleDiscoveryMessage(data []byte, addr net.Addr) error {
 			ID:       msg.NodeID,
 			Address:  addr.String(),
 			IsActive: true,
-			NodeIP:   n.NodeIP, // Populate the NodeIP
+			NodeIP:   msg.NodeHttpPort,
 		}
 		n.peers[msg.NodeID] = peer
 		log.Printf("[DEBUG] Discovered new peer: %s at %s", msg.NodeID, addr.String())

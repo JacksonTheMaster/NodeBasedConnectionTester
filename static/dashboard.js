@@ -2,8 +2,17 @@
 const state = {
     currentTab: null,
     nodes: new Map(),
-    charts: new Map()
+    charts: new Map(),
+    lastUpdate: {
+        health: 0,
+        metrics: 0
+    }
 };
+
+// Utility functions
+const formatBandwidth = (bw) => bw ? `${bw.toFixed(2)}` : '-';
+const formatLatency = (lat) => lat ? `${lat.toFixed(2)}` : '-';
+const formatTime = (timestamp) => new Date(timestamp).toLocaleTimeString();
 
 // Chart configuration factory
 const createChartConfig = (type, color) => ({
@@ -15,18 +24,39 @@ const createChartConfig = (type, color) => ({
             borderColor: color,
             backgroundColor: `${color}20`,
             fill: true,
-            tension: 0.4
+            tension: 0.4,
+            pointRadius: 2
         }]
     },
     options: {
         responsive: true,
         maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
+        animation: {
+            duration: 750
+        },
+        plugins: { 
+            legend: { display: false },
+            tooltip: {
+                callbacks: {
+                    label: (context) => {
+                        const value = context.raw.y;
+                        return type === 'bandwidth' 
+                            ? `${formatBandwidth(value)} Mbps`
+                            : `${formatLatency(value)} ms`;
+                    }
+                }
+            }
+        },
         scales: {
             y: {
                 beginAtZero: true,
                 grid: { color: '#ffffff15' },
-                ticks: { color: '#a0a0a0' }
+                ticks: { 
+                    color: '#a0a0a0',
+                    callback: (value) => type === 'bandwidth' 
+                        ? `${value} Mbps`
+                        : `${value} ms`
+                }
             },
             x: {
                 grid: { color: '#ffffff15' },
@@ -35,6 +65,30 @@ const createChartConfig = (type, color) => ({
         }
     }
 });
+
+// Data fetching functions
+const fetchWithTimeout = async (url, timeout = 5000) => {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), timeout);
+    
+    try {
+        const response = await fetch(url, { signal: controller.signal });
+        clearTimeout(timeoutId);
+        return await response.json();
+    } catch (error) {
+        clearTimeout(timeoutId);
+        throw error;
+    }
+};
+
+const fetchNodeResults = async (nodeIPPort) => {
+    try {
+        return await fetchWithTimeout(`http://${nodeIPPort}/api/results`);
+    } catch (error) {
+        console.error(`Failed to fetch results from ${nodeIPPort}:`, error);
+        return [];
+    }
+};
 
 // Initialize node tab and content
 const initializeNodeTab = (nodeId) => {
@@ -56,11 +110,11 @@ const initializeNodeTab = (nodeId) => {
     // Initialize charts
     const bandwidthChart = new Chart(
         content.querySelector('.bandwidth-chart'),
-        createChartConfig('line', '#3498db')
+        createChartConfig('bandwidth', '#3498db')
     );
     const latencyChart = new Chart(
         content.querySelector('.latency-chart'),
-        createChartConfig('line', '#2ecc71')
+        createChartConfig('latency', '#2ecc71')
     );
 
     state.charts.set(nodeId, { bandwidthChart, latencyChart });
@@ -70,134 +124,162 @@ const initializeNodeTab = (nodeId) => {
 // Switch active tab
 const switchTab = (nodeId) => {
     if (state.currentTab === nodeId) return;
-    
-    // Update tab buttons
+
+    // Update tab button styles
     document.querySelectorAll('.tab-button').forEach(btn => {
         btn.classList.toggle('active', btn.textContent === `Node ${nodeId}`);
     });
 
-    // Update tab contents
+    // Update tab content visibility
     document.querySelectorAll('.tab-content').forEach(content => {
         content.classList.toggle('active', content.id === `tab-${nodeId}`);
     });
 
+    // Update the currently active tab
     state.currentTab = nodeId;
+
+    // Refresh data for the newly selected tab
+    updateNodeMetrics(nodeId);
 };
 
 // Update node status display
 const updateNodeStatus = (currentNode, peers) => {
-    // Update current node
     document.getElementById('currentNodeId').textContent = `Node: ${currentNode}`;
 
-    // Update peer displays
     const peerContainer = document.getElementById('connectedPeers');
     peerContainer.innerHTML = '';
 
     Object.entries(peers)
+        .filter(([_, peer]) => peer.isActive)
         .slice(0, 4)
         .forEach(([id, peer]) => {
-            if (peer.isActive) {
-                const peerElement = document.createElement('div');
-                peerElement.className = 'node-status peer';
-                peerElement.innerHTML = `
-                    <div class="status-indicator peer"></div>
-                    <span>Node: ${id}</span>
-                `;
-                peerContainer.appendChild(peerElement);
-            }
+            const peerElement = document.createElement('div');
+            peerElement.className = 'node-status peer';
+            peerElement.innerHTML = `
+                <div class="status-indicator peer"></div>
+                <span>Node: ${id}</span>
+            `;
+            peerContainer.appendChild(peerElement);
         });
 };
 
 // Process and update metrics
-const updateMetrics = (nodeId, results) => {
-    const nodeResults = results.filter(r => r.sourceNode === nodeId);
-    const content = document.getElementById(`tab-${nodeId}`);
+const updateNodeMetrics = async (nodeId) => {
+    try {
+        // Fetch results for the specified node
+        const results = nodeId === state.currentNode
+            ? await fetchWithTimeout('/api/results') // Local API for the current node
+            : await fetchNodeResults(state.peers[nodeId]?.nodeIPPort); // Remote node API
 
-    // Filter results by test type
-    const iperfResults = nodeResults.filter(r => r.testType === 'iperf');
-    const internetResults = nodeResults.filter(r => r.testType === 'internet');
+        const nodeResults = results.filter(r => r.sourceNode === nodeId);
+        const content = document.getElementById(`tab-${nodeId}`);
 
-    // Calculate averages only using the filtered results
-    const metrics = {
-        nodeBandwidth: iperfResults.reduce((acc, curr) => acc + curr.bandwidth, 0) / iperfResults.length || 0,
-        nodeLatency: iperfResults.reduce((acc, curr) => acc + (curr.latency || 0), 0) / iperfResults.length || 0,
-        internetLatency: internetResults.reduce((acc, curr) => acc + curr.latency, 0) / internetResults.length || 0 // Only using 'internet' testType
-    };
+        // Calculate metrics
+        const iperfResults = nodeResults.filter(r => r.testType === 'iperf');
+        const pingResults = nodeResults.filter(r => r.testType === 'ping');
+        const internetResults = nodeResults.filter(r => r.testType === 'internet');
 
-    // Update metric cards
-    const metricValues = content.querySelectorAll('.metric-value');
-    metricValues[0].textContent = metrics.nodeBandwidth.toFixed(2);
-    metricValues[2].textContent = metrics.nodeLatency.toFixed(2);
-    metricValues[3].textContent = metrics.internetLatency.toFixed(2);
+        const metrics = {
+            avgBandwidth: iperfResults.reduce((acc, curr) => acc + curr.bandwidth, 0) / iperfResults.length || 0,
+            peakBandwidth: Math.max(...iperfResults.map(r => r.bandwidth), 0),
+            avgNodeLatency: pingResults.reduce((acc, curr) => acc + curr.latency, 0) / pingResults.length || 0,
+            internetLatency: internetResults.length > 0 ? internetResults[internetResults.length - 1].latency : 0
+        };
 
-    // Update charts
-    const charts = state.charts.get(nodeId);
-    if (charts) {
-        // Bandwidth chart (using iperf results)
-        const bandwidthData = iperfResults.slice(-20).map(r => ({
-            x: new Date(r.timestamp).toLocaleTimeString(),
-            y: r.bandwidth
-        }));
-        charts.bandwidthChart.data.labels = bandwidthData.map(d => d.x);
-        charts.bandwidthChart.data.datasets[0].data = bandwidthData.map(d => d.y);
-        charts.bandwidthChart.update();
+        // Update metric cards
+        const metricValues = content.querySelectorAll('.metric-value');
+        metricValues[0].textContent = formatBandwidth(metrics.avgBandwidth);
+        metricValues[1].textContent = formatBandwidth(metrics.peakBandwidth);
+        metricValues[2].textContent = formatLatency(metrics.avgNodeLatency);
+        metricValues[3].textContent = formatLatency(metrics.internetLatency);
 
-        // Latency chart (using internet results only for internet latency)
-        const latencyData = internetResults.slice(-20).map(r => ({
-            x: new Date(r.timestamp).toLocaleTimeString(),
-            y: r.latency
-        }));
-        charts.latencyChart.data.labels = latencyData.map(d => d.x);
-        charts.latencyChart.data.datasets[0].data = latencyData.map(d => d.y);
-        charts.latencyChart.update();
+        // Update charts
+        const charts = state.charts.get(nodeId);
+        if (charts) {
+            // Bandwidth chart
+            const bandwidthData = iperfResults.slice(-20).map(r => ({
+                x: formatTime(r.timestamp),
+                y: r.bandwidth
+            }));
+            charts.bandwidthChart.data.labels = bandwidthData.map(d => d.x);
+            charts.bandwidthChart.data.datasets[0].data = bandwidthData;
+            charts.bandwidthChart.update('none'); // Use 'none' for smoother updates
+
+            // Latency chart (combine ping and internet results)
+            const latencyData = [...pingResults, ...internetResults]
+                .sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp))
+                .slice(-20)
+                .map(r => ({
+                    x: formatTime(r.timestamp),
+                    y: r.latency
+                }));
+            charts.latencyChart.data.labels = latencyData.map(d => d.x);
+            charts.latencyChart.data.datasets[0].data = latencyData;
+            charts.latencyChart.update('none');
+        }
+
+        // Update results table
+        const tbody = content.querySelector('.results-table tbody');
+        tbody.innerHTML = nodeResults
+            .slice(-10)
+            .reverse()
+            .map(result => `
+                <tr>
+                    <td>${formatTime(result.timestamp)}</td>
+                    <td><span class="badge badge-${result.testType}">${result.testType}</span></td>
+                    <td>${result.targetNode}</td>
+                    <td>${formatBandwidth(result.bandwidth)} ${result.bandwidth ? 'Mbps' : ''}</td>
+                    <td>${formatLatency(result.latency)} ${result.latency ? 'ms' : ''}</td>
+                    <td>${result.packetLoss ? result.packetLoss.toFixed(2) + '%' : '-'}</td>
+                </tr>
+            `)
+            .join('');
+
+    } catch (error) {
+        console.error('Error updating metrics:', error);
     }
-
-    // Update results table
-    const tbody = content.querySelector('.results-table');
-    tbody.innerHTML = nodeResults.slice(-10).reverse().map(result => `
-        <tr>
-            <td>${new Date(result.timestamp).toLocaleTimeString()}</td>
-            <td><span class="badge badge-${result.testType}">${result.testType}</span></td>
-            <td>${result.targetNode}</td>
-            <td>${result.bandwidth ? result.bandwidth.toFixed(2) + ' Mbps' : '-'}</td>
-            <td>${result.latency ? result.latency.toFixed(2) + ' ms' : '-'}</td>
-            <td>${result.packetLoss ? result.packetLoss.toFixed(2) + '%' : '-'}</td>
-        </tr>
-    `).join('');
 };
 
-// Main update function
+// Main dashboard update function
 const updateDashboard = async () => {
     try {
-        const [results, health, peers] = await Promise.all([
-            fetch('/api/results').then(r => r.json()),
-            fetch('/api/health').then(r => r.json()),
-            fetch('/api/peers').then(r => r.json())
-        ]);
+        // Fast update cycle (node health status)
+        const currentTime = Date.now();
+        if (currentTime - state.lastUpdate.health > 2000) { // Update every 2 seconds
+            const [health, peers] = await Promise.all([
+                fetchWithTimeout('/api/health'),
+                fetchWithTimeout('/api/peers')
+            ]);
 
-        // Update node status display
-        updateNodeStatus(health.nodeId, peers);
+            state.currentNode = health.nodeId;
+            state.peers = peers;
+            updateNodeStatus(health.nodeId, peers);
+            
+            // Initialize tabs for new nodes
+            const uniqueNodes = [...new Set([
+                health.nodeId,
+                ...Object.keys(peers)
+            ])];
 
-        // Initialize tabs for new nodes
-        const uniqueNodes = [...new Set([
-            health.nodeId,
-            ...results.map(r => r.sourceNode),
-            ...Object.keys(peers)
-        ])];
-
-        uniqueNodes.forEach(nodeId => {
-            if (!state.nodes.has(nodeId)) {
-                state.nodes.set(nodeId, initializeNodeTab(nodeId));
-                if (!state.currentTab) {
-                    switchTab(nodeId);
+            uniqueNodes.forEach(nodeId => {
+                if (!state.nodes.has(nodeId)) {
+                    state.nodes.set(nodeId, initializeNodeTab(nodeId));
+                    if (!state.currentTab) {
+                        switchTab(nodeId);
+                    }
                 }
-            }
-        });
+            });
 
-        // Update metrics for each node
-        uniqueNodes.forEach(nodeId => {
-            updateMetrics(nodeId, results);
-        });
+            state.lastUpdate.health = currentTime;
+        }
+
+        // Slower update cycle (metrics)
+        if (currentTime - state.lastUpdate.metrics > 5000) { // Update every 5 seconds
+            if (state.currentTab) {
+                await updateNodeMetrics(state.currentTab);
+            }
+            state.lastUpdate.metrics = currentTime;
+        }
 
     } catch (error) {
         console.error('Error updating dashboard:', error);
@@ -207,7 +289,7 @@ const updateDashboard = async () => {
 // Initialize and start periodic updates
 const initDashboard = () => {
     updateDashboard();
-    setInterval(updateDashboard, 5000);
+    setInterval(updateDashboard, 1000); // Run every second but internal checks control actual update frequency
 };
 
 // Start dashboard when page loads

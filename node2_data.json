@@ -2050,5 +2050,3992 @@
     "bandwidth": 29815.027927007723,
     "latency": 0,
     "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:32:11.981995063+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:32:11.981947663+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 35881.646379353006,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:32:19.183958219+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:32:19.183915718+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 33415.71922652696,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:32:24.383151647+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.7,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:32:41.982205047+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.023,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:32:41.982186347+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 37568.8100248349,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:32:49.183556586+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.023,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:32:49.183493385+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 35140.05038923867,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:32:54.393076753+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.523,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:33:11.982300969+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.016,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:33:11.982247068+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 45354.162937410896,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:33:19.183463104+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.019,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:33:19.183412503+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 38920.7870908052,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:33:24.403135848+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.575,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:33:41.981726595+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.022,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:33:41.981784796+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 38223.30643971014,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:33:49.193394131+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.023,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:33:49.193409731+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 36555.491934254904,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:33:54.39326409+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.598,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:34:11.981576879+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.031,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:34:11.981540878+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 30568.961945522176,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:34:19.185023621+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.028,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:34:19.185020721+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 30437.534514899442,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:34:24.383199227+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.636,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:34:41.981622165+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:34:41.981578865+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 27381.93316701686,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:34:49.184032676+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.027,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:34:49.183991775+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 26671.051049189227,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:34:54.383567719+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.682,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:35:11.981972804+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.022,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:35:11.981944804+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 28881.220656018813,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:35:19.183728343+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.023,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:35:19.183700343+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 31424.735424154325,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:35:24.393361836+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.576,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:35:41.982008191+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.021,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:35:41.98198669+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 36061.391393528684,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:35:49.184077527+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.022,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:35:49.184047026+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 34724.17751202134,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:35:54.393207513+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.511,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:36:11.982047541+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:36:11.982047141+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 30638.66151985583,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:36:19.183550222+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:36:19.183498021+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 29833.040195593156,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:36:24.383704905+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.594,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:36:41.981738988+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.026,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:36:41.981686387+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 33567.90164969163,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:36:49.184013855+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:36:49.183906254+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 34570.65879700304,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:36:54.393180425+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.643,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:37:11.981944676+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.027,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:37:11.981917176+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 24861.150236854413,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:37:19.184525112+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.028,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:37:19.184461212+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 24844.32372931253,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:37:24.383195502+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.639,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:37:41.981753347+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.023,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:37:41.981691047+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 32216.043101856918,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:37:49.183676243+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.023,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:37:49.183657643+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 32228.471160601806,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:37:54.383745382+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.576,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:38:11.981461249+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.023,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:38:11.981440049+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 37493.75081297333,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:38:19.183502051+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:38:19.183469351+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 28625.575188956373,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:38:24.383110749+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.733,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:38:41.982375526+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:38:41.982336726+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 28409.51586226372,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:38:49.183440945+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.029,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:38:49.183394045+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 27795.152295258686,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:38:54.383342299+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.741,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:39:11.982146162+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.028,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:39:11.982143062+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 34589.581102221106,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:39:19.183455054+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.027,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:39:19.183424754+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 29635.772560252102,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:39:24.383084451+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.684,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:39:41.981570894+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:39:41.981520893+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 37409.35125223165,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:39:49.183411795+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:39:49.183385495+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 35250.37231107502,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:39:54.383121696+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.636,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:40:11.981860655+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.029,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:40:11.981758354+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 27047.854752107105,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:40:19.183887452+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.029,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:40:19.183838151+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 25582.927001656986,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:40:24.383251009+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.59,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:40:41.982328406+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:40:41.982232605+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 33241.34471125731,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:40:49.18413117+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.026,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:40:49.18418937+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 27773.28686899918,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:40:54.403268871+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.631,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:41:11.981671506+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:41:11.981609606+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 28145.39289124227,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:41:19.183876518+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.03,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:41:19.183847717+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 28815.916732630936,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:41:24.38316349+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.531,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:41:41.98244245+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.026,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:41:41.982326049+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 28585.28646908817,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:41:49.183610119+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.028,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:41:49.183581219+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 29170.73089562794,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:41:54.383435285+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.675,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:42:11.982285635+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.03,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:42:11.982251635+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 30141.28060989804,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:42:19.183351388+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:42:19.183301088+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 36345.4941626397,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:42:24.383223527+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.759,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:42:41.982359266+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:42:41.982345066+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 34174.79939928685,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:42:49.193358371+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.026,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:42:49.193331171+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 33901.820172320244,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:42:54.393198711+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.581,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:43:11.982135873+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.026,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:43:11.982105972+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 25465.355127957184,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:43:19.183532179+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.023,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:43:19.183498979+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 34576.8291405891,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:43:24.393142373+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.531,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:43:41.982374285+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.028,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:43:41.982344184+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 30946.20521387286,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:43:49.18415612+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.027,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:43:49.18418412+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 25502.44537418503,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:43:54.383385205+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.78,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:44:11.981569315+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.026,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:44:11.981528915+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 26186.70232474141,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:44:19.18377352+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.03,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:44:19.18381302+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 25456.023530094084,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:44:24.38340838+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.792,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:44:41.982188543+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.016,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:44:41.982131242+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 43385.11699794084,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:44:49.183707271+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.027,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:44:49.183673671+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 29705.878844738858,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:44:54.383189659+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.55,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:45:11.981565873+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:45:11.981510172+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 34275.25783516524,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:45:19.193623906+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:45:19.193672606+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 34998.82170377675,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:45:24.393197261+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.615,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:45:41.981749042+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:45:41.981796443+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 28745.047319987356,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:45:49.203631869+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.02,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:45:49.203575269+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 30628.715061966617,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:45:54.403109262+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.592,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:46:11.982458712+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.023,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:46:11.982386812+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 33903.76132470103,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:46:19.183355665+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.019,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:46:19.183313164+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 39566.99853867628,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:46:24.383158365+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.834,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:46:41.981481595+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.021,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:46:41.981445295+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 34593.041949287115,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:46:49.193620718+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:46:49.193670519+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 34244.96483456838,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:46:54.403096013+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.529,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:47:11.982243667+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.029,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:47:11.982220967+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 35948.79002384361,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:47:19.19385538+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.028,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:47:19.19388198+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 28829.064215721177,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:47:24.403151583+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.716,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:47:41.982468973+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.026,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:47:41.982437273+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 31479.32244608826,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:47:49.183795398+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.022,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:47:49.183747798+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 33972.46242394922,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:47:54.383082916+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.662,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:48:46.709022005+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.014,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:48:46.708976304+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 59916.59137676384,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:48:53.904747595+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.014,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:48:53.904730795+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 61762.321822101396,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:48:59.103122416+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.617,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:49:16.709660681+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.015,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:49:16.709694282+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 53167.20190361223,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:49:23.90472749+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.016,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:49:23.90469289+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 59956.54310045016,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:49:29.103916337+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.651,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:49:46.709661268+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.019,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:49:46.709597067+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 45226.64635757297,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:49:53.903784982+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.016,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:49:53.903868882+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 64065.26860836764,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:49:59.103189896+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.659,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:50:16.709933032+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.021,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:50:16.709896232+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 42830.52624926907,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:50:23.904080594+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.016,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:50:23.904015293+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 56441.29274264724,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:50:29.103115959+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.66,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:50:46.709377429+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.016,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:50:46.709347029+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 52343.06097564146,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:50:53.903984172+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.016,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:50:53.903969472+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 58561.927197695884,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:50:59.10344744+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.68,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:51:16.709869562+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.015,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:51:16.709829762+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 54604.322351399096,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:51:23.904569543+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.015,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:51:23.904650944+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 59571.330610912715,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:51:29.104027315+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.639,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:51:46.709806871+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.017,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:51:46.709778771+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 49091.91697973133,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:51:53.904511591+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.017,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:51:53.904475091+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 61202.35369222388,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:51:59.113827477+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.656,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:52:16.70906288+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.013,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:52:16.70904048+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 58565.9105935133,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:52:23.904423895+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.016,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:52:23.904354894+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 54816.73569978503,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:52:29.113064206+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.714,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:53:33.456017796+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.021,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:53:33.456016396+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 48930.74359402546,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:53:40.654520814+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.033,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:53:40.654489314+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 40939.9135534523,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:53:45.85338453+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.623,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:54:03.455569831+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.022,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:54:03.455565531+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 39083.793247583155,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:54:10.654212547+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.03,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:54:10.654249448+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 37513.59988352079,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:54:15.853313395+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.602,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:54:33.456174577+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.023,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:54:33.456133377+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 44932.11396508474,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:54:40.653896115+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:54:40.653810715+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 40857.44472454619,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:54:45.853253007+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.626,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:55:03.456421398+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:55:03.456468198+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 43454.81717213354,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:55:10.653986255+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.031,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:55:10.653947455+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 40693.63936933672,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:55:15.853171677+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.69,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:55:33.456164807+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:55:33.456164407+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 43317.60213674231,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:55:40.664329889+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.029,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:55:40.66438269+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 39067.164839331796,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:55:45.86341073+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.705,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:56:03.456339957+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.021,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:56:03.456327157+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 48439.682375944736,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:56:10.653659173+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.028,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:56:10.653624073+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 42705.2075821877,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:56:15.853184303+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.614,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:56:33.456152807+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.026,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:56:33.456101607+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 43121.268581090204,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:56:40.65429868+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.03,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:58:08.472782536+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.022,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:58:08.472765936+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 42317.53307629878,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:58:15.694516766+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.02,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:58:15.694496166+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 62347.10695670365,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:58:20.903093049+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.499,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:58:38.472283089+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.04,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:58:38.472253989+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 31842.767486236673,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:58:45.684795343+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.026,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:58:45.684740943+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 67279.61943085025,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:58:50.883815568+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.646,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:59:08.472407885+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.026,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:59:08.472365885+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 32880.59517221559,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:59:15.675027193+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:59:15.675001193+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 60326.10736659075,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:59:20.883173714+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.734,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:59:38.472631084+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.026,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:59:38.472581684+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 35318.84242160859,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:59:45.693730046+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.03,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:59:45.693703346+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 57196.68266837543,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T00:59:50.893882419+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.663,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:00:08.472738397+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:00:08.472622796+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 32527.512977936756,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:00:15.67358743+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.031,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:00:15.67368733+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 59713.57754235399,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:00:20.883214776+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.616,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:00:38.472170539+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.029,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:00:38.472159239+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 30669.00843901012,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:00:45.684747894+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.029,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:00:45.684681494+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 61828.601215165974,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:00:50.89312525+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.61,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:01:08.472314141+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:01:08.472264641+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 38887.07733298027,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:01:15.673883765+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.029,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:01:15.673843364+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 36127.39906316618,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:01:20.884225399+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.576,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:01:38.472072891+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.029,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:01:38.472051691+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 27216.91631280959,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:01:45.674737114+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:01:45.674697514+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 66187.36707370145,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:01:50.874505362+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.643,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:02:08.472489661+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:02:08.472461761+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 30597.282454674743,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:02:15.673668748+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.028,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:02:15.673630548+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 55143.788059286606,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:02:20.873383434+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.803,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:02:38.47313167+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.026,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:02:38.47307667+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 31500.538978633333,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:02:45.673659254+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.023,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:02:45.673624954+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 63783.15593478976,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:02:50.873176394+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.559,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:03:08.472809281+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.026,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:03:08.47269928+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 29881.649499051222,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:03:15.683944944+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.029,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:03:15.683888544+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 47595.98131478491,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:03:20.884341784+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.577,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:03:38.472562378+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.023,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:03:38.472539378+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 35111.983920289436,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:03:45.673720637+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.017,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:03:45.673682737+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 69991.31414071092,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:03:50.873201471+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.576,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:04:08.472800866+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.034,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:04:08.472756066+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 26350.519886152844,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:04:15.675962931+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.027,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:04:15.67591793+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 40565.70999902604,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:04:20.873269079+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.675,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:04:38.472686816+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.022,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:04:38.472594916+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 33968.74092384687,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:04:45.68569895+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:04:45.68566445+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 54181.11966541355,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:04:50.893184898+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.648,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:05:08.472970277+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.026,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:05:08.473110178+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 34278.88111004226,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:05:15.674322694+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:05:15.674280894+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 62198.363113208055,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:05:20.874280696+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.553,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:05:38.472140846+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.026,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:05:38.472127546+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 31744.189847207923,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:05:45.674103758+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:05:45.674076358+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 59586.02225986645,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:05:50.874186631+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.699,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:06:08.473119502+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.027,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:06:08.473095602+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 32850.47350963909,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:06:15.675719923+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.027,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:06:15.675622322+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 54813.33088275734,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:06:20.873124679+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.652,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:06:38.472963818+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:06:38.472850417+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 32729.891235196414,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:06:45.674745523+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:06:45.674700623+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 56538.25676963491,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:06:50.883196647+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.58,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:07:08.47272597+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.027,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:07:08.47265877+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 26508.067913997787,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:07:15.695668171+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:07:15.695634471+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 46359.05798786935,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:07:20.89324039+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.624,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:07:38.472647711+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:07:38.47259671+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 31319.82507836715,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:07:45.676136215+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.027,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:07:45.676107714+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 47910.518888999555,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:07:50.873157542+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.524,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:08:08.472300733+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:08:08.472187132+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 31789.188571273153,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:08:15.673833386+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:08:15.673773385+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 61705.25527343504,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:08:20.873100777+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.594,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:08:38.472618961+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.021,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:08:38.472606461+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 38045.960894586584,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:08:45.674104409+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:08:45.674061409+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 58207.619590086564,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:08:50.893233267+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.575,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:09:08.472335932+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.023,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:09:08.472221031+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 31938.93507900229,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:09:15.675252634+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.026,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:09:15.675222634+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 55630.116383835266,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:09:20.873195035+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.676,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:09:38.472579332+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.029,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:09:38.472544232+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 33942.9137436368,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:09:45.684204916+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.023,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:09:45.684181116+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 64744.31188928502,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:09:50.894412729+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.748,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:10:08.472622384+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.027,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:10:08.472607284+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 29801.548255953134,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:10:15.67382029+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.023,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:10:15.67379679+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 44366.41601726364,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:10:20.874369218+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.62,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:10:38.472491059+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.026,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:10:38.472463359+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 29298.748056037322,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:10:45.674013748+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:10:45.673973048+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 63009.78139832831,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:10:50.883120932+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.748,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:11:08.472844704+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.023,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:11:08.472843304+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 32703.973504900834,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:11:15.67396798+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.028,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:11:15.67391468+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 38804.036226040764,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:11:20.874019282+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.689,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:11:38.472723351+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.027,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:11:38.47266615+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 36774.812638988886,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:11:45.675075787+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:11:45.675115887+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 58635.95946828373,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:11:50.873173114+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.588,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:12:08.473090557+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.023,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:12:08.473068657+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 34196.30163554645,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:12:15.673847936+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.068,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:12:15.673808035+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 47052.4169018952,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:12:20.874078211+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.56,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:12:38.472930022+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:12:38.473023522+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 31411.4053819257,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:12:45.673648814+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:12:45.673610214+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 60828.798667546114,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:12:50.87320284+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.745,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:13:08.472656703+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.027,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:13:08.472695004+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 27201.576478263367,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:13:15.673978851+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:13:15.673909251+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 48778.96530076213,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:13:20.884598902+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.743,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:13:38.472833285+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.027,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:13:38.472753185+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 27067.23711583499,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:13:45.674064583+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.028,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:13:45.674106083+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 39277.17489168607,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:13:50.873276293+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.569,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:14:08.472152284+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.027,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:14:08.472112584+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 33809.70977893376,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:14:15.673954543+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.026,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:14:15.673906743+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 47153.557371698465,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:14:20.873275492+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.66,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:14:38.472518436+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.036,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:14:38.472444036+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 28577.38162660705,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:14:45.685855325+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.026,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:14:45.685782924+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 60567.05954022597,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:14:50.883135848+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.608,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:15:08.472630999+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:15:08.472730801+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 31374.34904569474,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:15:15.674519732+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:15:15.674504031+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 63926.34652703182,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:15:20.883094196+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.559,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:15:38.472522104+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.026,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:15:38.472499303+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 24244.865733891755,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:15:45.684166833+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:15:45.684137332+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 62976.555102295504,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:15:50.883137854+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.62,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:16:08.472717071+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.028,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:16:08.472619067+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 31714.538319064643,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:16:15.673948345+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.027,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:16:15.673929144+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 58951.907995366484,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:16:20.873188063+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.677,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:16:38.472949563+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.023,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:16:38.472925062+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 32133.284522989794,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:16:45.683800016+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:16:45.683829617+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 45939.66962389844,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:16:50.8831726+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 22.318,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:17:08.472639348+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.029,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:17:08.472581145+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 29948.894621675736,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:17:15.675297618+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:17:15.675153912+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 55957.713664235154,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:17:20.873205906+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.496,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:17:38.472928173+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:17:38.473044778+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 33217.2068893314,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:17:45.675200898+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.023,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:17:45.675149895+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 61656.803370503374,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:17:50.893121769+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.677,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:18:08.472707676+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.025,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:18:08.472628973+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 36512.8416357139,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:18:15.684358621+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.024,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:18:15.684310619+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 63035.68713850289,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:18:20.883154883+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.539,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:18:38.472639767+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 0,
+    "latency": 0.028,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:18:38.472549764+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "büro",
+    "bandwidth": 33637.69241892101,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:18:45.674370537+01:00",
+    "testType": "ping",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 0,
+    "latency": 0.027,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:18:45.674316535+01:00",
+    "testType": "iperf",
+    "sourceNode": "kassenhaus",
+    "targetNode": "futterküche",
+    "bandwidth": 63317.93000512588,
+    "latency": 0,
+    "packetLoss": 0
+  },
+  {
+    "timestamp": "2024-11-17T01:18:50.873327393+01:00",
+    "testType": "internet",
+    "sourceNode": "kassenhaus",
+    "targetNode": "8.8.8.8",
+    "bandwidth": 0,
+    "latency": 21.597,
+    "packetLoss": 0
   }
 ]

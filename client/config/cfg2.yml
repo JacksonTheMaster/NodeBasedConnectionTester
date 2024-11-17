@@ -1,5 +1,5 @@
 nodeId: "kassenhaus"
-nodeIPPort: "127.0.0.1:8082"
+nodeIPPort: "localhost:8082"
 nodeHttpPort: "8082"
 listenAddr: ":7778"
 iperfPort: 5202
