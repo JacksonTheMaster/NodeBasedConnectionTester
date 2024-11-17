@@ -1,8 +1,11 @@
-nodeId: "node2"
+nodeId: "kassenhaus"
+nodeIPPort: "localhost:8082"
+nodeHttpPort: "8082"
 listenAddr: ":7778"
 iperfPort: 5202
 knownPeers:
   - "localhost:7777"
+  - "localhost:7779"
 dataFile: "node2_data.json"
 testConfig:
   iperfInterval: 30

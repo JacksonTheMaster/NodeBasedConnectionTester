@@ -1,0 +1,13 @@
+nodeId: "büro"
+nodeIPPort: "localhost:8083"
+nodeHttpPort: "8083"
+listenAddr: ":7779"
+iperfPort: 5203
+knownPeers:
+  - "localhost:7777"
+  - "localhost:7778"
+dataFile: "node3_data.json"
+testConfig:
+  iperfInterval: 30
+  mLabInterval: 300
+  targetBandwidth: "1Gbps"

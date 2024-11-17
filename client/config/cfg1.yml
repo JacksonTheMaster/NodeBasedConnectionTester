@@ -1,9 +1,12 @@
 # config1.yaml
-nodeId: "node1"
+nodeId: "futterküche"
+nodeIPPort: "localhost:8080"
+nodeHttpPort: "8080"
 listenAddr: ":7777"
 iperfPort: 5201
 knownPeers:
   - "localhost:7778"
+  - "localhost:7779"
 dataFile: "node1_data.json"
 testConfig:
   iperfInterval: 30

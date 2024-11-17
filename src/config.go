@@ -8,12 +8,14 @@ import (
 )
 
 type Config struct {
-	NodeID     string   `yaml:"nodeId"`
-	ListenAddr string   `yaml:"listenAddr"` // UDP discovery address
-	IperfPort  int      `yaml:"iperfPort"`  // TCP port for iperf server
-	KnownPeers []string `yaml:"knownPeers"` // UDP discovery addresses
-	DataFile   string   `yaml:"dataFile"`
-	TestConfig struct {
+	NodeID       string   `yaml:"nodeId"`
+	NodeIP       string   `yaml:"nodeIPPort"`
+	NodeHttpPort string   `yaml:"nodeHttpPort"`
+	ListenAddr   string   `yaml:"listenAddr"` // UDP discovery address
+	IperfPort    int      `yaml:"iperfPort"`  // TCP port for iperf server
+	KnownPeers   []string `yaml:"knownPeers"` // UDP discovery addresses
+	DataFile     string   `yaml:"dataFile"`
+	TestConfig   struct {
 		IperfInterval   int    `yaml:"iperfInterval"`   // seconds
 		MLabInterval    int    `yaml:"mlabInterval"`    // seconds
 		TargetBandwidth string `yaml:"targetBandwidth"` // e.g., "1Gbps"
