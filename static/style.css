@@ -44,18 +44,23 @@ body {
 
 .node-status-container {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     align-items: center;
+    background-color: var(--bg-tertiary);
+    padding: 15px;
+    border-radius: var(--border-radius);
 }
 
 .node-status {
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 8px 16px;
+    gap: 8px;
+    padding: 6px 12px;
     background-color: rgba(46, 204, 113, 0.2);
-    border-radius: 20px;
+    border-radius: 15px;
     transition: transform 0.2s;
+    font-size: 0.9em;
 }
 
 .node-status:hover {
@@ -238,6 +243,11 @@ th {
     color: #2ecc71;
 }
 
+.badge-speedtest {
+    background-color: rgba(155, 89, 182, 0.2);
+    color: #9b59b6;
+}
+
 /* Add a transition for smoother updates */
 .metric-value {
     transition: all 0.3s ease;
@@ -262,4 +272,46 @@ tr:hover {
         overflow-x: auto;
         white-space: nowrap;
     }
+}
+
+.node-status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 16px;
+    background-color: rgba(46, 204, 113, 0.2);
+    border-radius: 20px;
+    transition: transform 0.2s;
+}
+
+.node-status:hover {
+    transform: translateY(-2px);
+}
+
+.node-status.current {
+    background-color: rgba(46, 204, 113, 0.2);
+}
+
+.node-status.peer {
+    background-color: rgba(52, 152, 219, 0.2);
+}
+
+.status-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.status-indicator.current {
+    background-color: var(--success);
+}
+
+.status-indicator.peer {
+    background-color: var(--accent);
+}
+
+/* Rest of your existing CSS remains the same */
+.badge-speedtest {
+    background-color: rgba(241, 196, 15, 0.2);
+    color: #f1c40f;
 }

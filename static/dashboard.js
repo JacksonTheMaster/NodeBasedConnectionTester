@@ -147,7 +147,8 @@ const updateNodeStatus = (currentNode, peers) => {
     document.getElementById('currentNodeId').textContent = `Node: ${currentNode}`;
 
     const peerContainer = document.getElementById('connectedPeers');
-    peerContainer.innerHTML = '';
+    peerContainer.innerHTML = '<div class="peers-group"></div>';
+    const peersGroup = peerContainer.querySelector('.peers-group');
 
     Object.entries(peers)
         .filter(([_, peer]) => peer.isActive)
@@ -159,7 +160,7 @@ const updateNodeStatus = (currentNode, peers) => {
                 <div class="status-indicator peer"></div>
                 <span>Node: ${id}</span>
             `;
-            peerContainer.appendChild(peerElement);
+            peersGroup.appendChild(peerElement);
         });
 };
 
@@ -178,38 +179,61 @@ const updateNodeMetrics = async (nodeId) => {
         const iperfResults = nodeResults.filter(r => r.testType === 'iperf');
         const pingResults = nodeResults.filter(r => r.testType === 'ping');
         const internetResults = nodeResults.filter(r => r.testType === 'internet');
+        const speedtestResults = nodeResults.filter(r => r.testType === 'speedtest');
 
         const metrics = {
-            avgBandwidth: iperfResults.reduce((acc, curr) => acc + curr.bandwidth, 0) / iperfResults.length || 0,
-            peakBandwidth: Math.max(...iperfResults.map(r => r.bandwidth), 0),
-            avgNodeLatency: pingResults.reduce((acc, curr) => acc + curr.latency, 0) / pingResults.length || 0,
-            internetLatency: internetResults.reduce((acc, curr) => acc + curr.latency, 0) / internetResults.length || 0 // Only using 'internet' testType
+            avgBandwidth: iperfResults.reduce((acc, curr) => acc + curr.bandwidth / 1, 0) / iperfResults.length || 0, // Convert bps to Gbps
+            peakBandwidth: Math.max(...iperfResults.map(r => r.bandwidth / 10), 0), // Convert bps to Gbps
+            avgNodeLatency: pingResults.reduce((acc, curr) => acc + curr.latency, 0) / pingResults.length || 0, // Latency in ms
+            internetLatency: internetResults.reduce((acc, curr) => acc + curr.latency, 0) / internetResults.length || 0, // Latency in ms
+            avgDownload: speedtestResults.reduce((acc, curr) => acc + curr.download_mbps / 1_000_00, 0) / speedtestResults.length || 0, // Convert bps to Mbps
+            avgUpload: speedtestResults.reduce((acc, curr) => acc + curr.upload_mbps / 1_000_00, 0) / speedtestResults.length || 0, // Convert bps to Mbps
+            speedtestLatency: speedtestResults.reduce((acc, curr) => acc + curr.latency, 0) / speedtestResults.length || 0 // Latency in ms
         };
 
         // Update metric cards
         const metricValues = content.querySelectorAll('.metric-value');
-        metricValues[0].textContent = formatBandwidth(metrics.avgBandwidth);
-        metricValues[1].textContent = formatBandwidth(metrics.peakBandwidth);
-        metricValues[2].textContent = formatLatency(metrics.avgNodeLatency);
-        metricValues[3].textContent = formatLatency(metrics.internetLatency);
+        metricValues[0].textContent = formatBandwidth(metrics.avgBandwidth, 'Gb/s'); // Average Bandwidth in Gbps
+        metricValues[1].textContent = formatBandwidth(metrics.peakBandwidth, 'Gb/s'); // Peak Bandwidth in Gbps
+        metricValues[2].textContent = formatLatency(metrics.avgNodeLatency); // Average Node Latency in ms
+        metricValues[3].textContent = formatLatency(metrics.internetLatency); // Internet Latency in ms
+        metricValues[4].textContent = formatBandwidth(metrics.avgDownload, 'Mbit/s'); // Speedtest Avg Download in Mbps
+        metricValues[5].textContent = formatBandwidth(metrics.avgUpload, 'Mbit/s'); // Speedtest Avg Upload in Mbps
 
         // Update charts
         const charts = state.charts.get(nodeId);
         if (charts) {
-            // Bandwidth chart
+            // Bandwidth chart (only iperf results)
             const bandwidthData = iperfResults.slice(-20).map(r => ({
                 x: formatTime(r.timestamp),
-                y: r.bandwidth
+                y: r.bandwidth / 1_000_000_000 // Convert bps to Gbps
             }));
+
             charts.bandwidthChart.data.labels = bandwidthData.map(d => d.x);
             charts.bandwidthChart.data.datasets[0].data = bandwidthData.map(d => d.y);
             charts.bandwidthChart.update('none'); // Use 'none' for smoother updates
+            charts.bandwidthChart.options.scales.x.ticks.callback = function(value, index, values) {
+                const label = this.getLabelForValue(value);
+                // Truncate or format the label (e.g., display only the first 5 characters)
+                return label.length > 5 ? `${label.substring(0, 5)}...` : label;
+            };
+            
+            charts.bandwidthChart.options.scales.y.ticks.callback = function(value, index, values) {
+                // Format y-axis values (e.g., limit decimal points to 2)
+                return parseFloat(value).toFixed(2) + ' Mbps';
+            };
+            
+            // Apply the updated configuration and update the chart
+            charts.bandwidthChart.update();
+            // Latency chart (combine internet and speedtest latency)
+            const latencyData = [...speedtestResults]
+                .sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp))
+                .slice(-20)
+                .map(r => ({
+                    x: formatTime(r.timestamp),
+                    y: r.latency
+                }));
 
-            // Latency chart (use only 'internet' results for internet latency)
-            const latencyData = internetResults.slice(-20).map(r => ({
-                x: formatTime(r.timestamp),
-                y: r.latency
-            }));
             charts.latencyChart.data.labels = latencyData.map(d => d.x);
             charts.latencyChart.data.datasets[0].data = latencyData.map(d => d.y);
             charts.latencyChart.update('none');
@@ -224,8 +248,12 @@ const updateNodeMetrics = async (nodeId) => {
                 <tr>
                     <td>${formatTime(result.timestamp)}</td>
                     <td><span class="badge badge-${result.testType}">${result.testType}</span></td>
-                    <td>${result.targetNode}</td>
-                    <td>${formatBandwidth(result.bandwidth)} ${result.bandwidth ? 'Mbps' : ''}</td>
+                    <td>${result.targetNode || '-'}</td>
+                    <td>${
+                        result.testType === 'speedtest' 
+                            ? `↓${formatBandwidth(result.download_mbps / 1_000_000, 'Mbps')} Mbps ↑${formatBandwidth(result.upload_mbps / 1_000_000, 'Mbps')} Mbps` 
+                            : `${formatBandwidth(result.bandwidth / 1_000_000_000, 'Gbps')} Gbps` // Convert bps to Gbps
+                    }</td>
                     <td>${formatLatency(result.latency)} ${result.latency ? 'ms' : ''}</td>
                     <td>${result.packetLoss ? result.packetLoss.toFixed(2) + '%' : '-'}</td>
                 </tr>
@@ -236,6 +264,7 @@ const updateNodeMetrics = async (nodeId) => {
         console.error('Error updating metrics:', error);
     }
 };
+
 
 
 // Main dashboard update function
