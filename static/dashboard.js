@@ -183,7 +183,7 @@ const updateNodeMetrics = async (nodeId) => {
             avgBandwidth: iperfResults.reduce((acc, curr) => acc + curr.bandwidth, 0) / iperfResults.length || 0,
             peakBandwidth: Math.max(...iperfResults.map(r => r.bandwidth), 0),
             avgNodeLatency: pingResults.reduce((acc, curr) => acc + curr.latency, 0) / pingResults.length || 0,
-            internetLatency: internetResults.length > 0 ? internetResults[internetResults.length - 1].latency : 0
+            internetLatency: internetResults.reduce((acc, curr) => acc + curr.latency, 0) / internetResults.length || 0 // Only using 'internet' testType
         };
 
         // Update metric cards
@@ -202,19 +202,16 @@ const updateNodeMetrics = async (nodeId) => {
                 y: r.bandwidth
             }));
             charts.bandwidthChart.data.labels = bandwidthData.map(d => d.x);
-            charts.bandwidthChart.data.datasets[0].data = bandwidthData;
+            charts.bandwidthChart.data.datasets[0].data = bandwidthData.map(d => d.y);
             charts.bandwidthChart.update('none'); // Use 'none' for smoother updates
 
-            // Latency chart (combine ping and internet results)
-            const latencyData = [...pingResults, ...internetResults]
-                .sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp))
-                .slice(-20)
-                .map(r => ({
-                    x: formatTime(r.timestamp),
-                    y: r.latency
-                }));
+            // Latency chart (use only 'internet' results for internet latency)
+            const latencyData = internetResults.slice(-20).map(r => ({
+                x: formatTime(r.timestamp),
+                y: r.latency
+            }));
             charts.latencyChart.data.labels = latencyData.map(d => d.x);
-            charts.latencyChart.data.datasets[0].data = latencyData;
+            charts.latencyChart.data.datasets[0].data = latencyData.map(d => d.y);
             charts.latencyChart.update('none');
         }
 
@@ -239,6 +236,7 @@ const updateNodeMetrics = async (nodeId) => {
         console.error('Error updating metrics:', error);
     }
 };
+
 
 // Main dashboard update function
 const updateDashboard = async () => {

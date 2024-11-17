@@ -1,4 +1,3 @@
-// testing.go
 package main
 
 import (
@@ -13,9 +12,9 @@ import (
 	"strings"
 	"sync"
 	"time"
-)
 
-// TestResult remains the same as before
+	"github.com/showwin/speedtest-go/speedtest"
+)
 
 // IperfResult represents the parsed output from iperf3
 type IperfResult struct {
@@ -50,7 +49,7 @@ func NewTestRunner(port int) *TestRunner {
 		serverPort:  port,
 		maxRetries:  3,
 		retryDelay:  time.Second * 5,
-		testTimeout: time.Second * 30,
+		testTimeout: time.Second * 60, // Increased timeout to accommodate speedtest
 		resultChan:  make(chan TestResult, 100),
 	}
 }
@@ -60,18 +59,15 @@ func (tr *TestRunner) StartIperfServer() error {
 	tr.mu.Lock()
 	defer tr.mu.Unlock()
 
-	// Check if server is already running
 	if tr.iperfServer != nil {
 		return nil
 	}
 
-	// Check if port is already in use
 	if conn, err := net.DialTimeout("tcp", fmt.Sprintf(":%d", tr.serverPort), time.Second); err == nil {
 		conn.Close()
 		return fmt.Errorf("port %d is already in use", tr.serverPort)
 	}
 
-	// Start iperf server with detailed logging
 	cmd := exec.Command("iperf3", "-s", "-p", strconv.Itoa(tr.serverPort))
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
@@ -80,10 +76,8 @@ func (tr *TestRunner) StartIperfServer() error {
 		return fmt.Errorf("failed to start iperf server: %v", err)
 	}
 
-	// Wait for server to be ready
 	time.Sleep(time.Second)
 
-	// Verify server is running
 	if conn, err := net.DialTimeout("tcp", fmt.Sprintf(":%d", tr.serverPort), time.Second); err != nil {
 		cmd.Process.Kill()
 		return fmt.Errorf("iperf server failed to start on port %d", tr.serverPort)
@@ -114,7 +108,6 @@ func (tr *TestRunner) StopIperfServer() error {
 func (tr *TestRunner) RunNetworkTests(ctx context.Context, peer *Peer) {
 	testID := fmt.Sprintf("%s-%d", peer.ID, time.Now().Unix())
 
-	// Create cancelable context for this test
 	testCtx, cancel := context.WithTimeout(ctx, tr.testTimeout)
 	defer cancel()
 
@@ -128,22 +121,25 @@ func (tr *TestRunner) RunNetworkTests(ctx context.Context, peer *Peer) {
 		tr.mu.Unlock()
 	}()
 
-	// Run ping and iperf tests concurrently
 	var wg sync.WaitGroup
-	wg.Add(2)
+	wg.Add(3) // Running ping, iperf, and speedtest
 
-	// Run continuous ping during iperf test
 	go func() {
 		defer wg.Done()
-		pingResult := tr.runContinuousPing(testCtx, peer.ID, peer.Address) // Pass peer.ID
+		pingResult := tr.runContinuousPing(testCtx, peer.ID, peer.Address)
 		tr.resultChan <- pingResult
 	}()
 
-	// Run iperf test
 	go func() {
 		defer wg.Done()
 		iperfResult := tr.runIperfTest(testCtx, peer)
 		tr.resultChan <- iperfResult
+	}()
+
+	go func() {
+		defer wg.Done()
+		speedtestResult := tr.runSpeedTest(testCtx, peer)
+		tr.resultChan <- speedtestResult
 	}()
 
 	wg.Wait()
@@ -154,16 +150,14 @@ func (tr *TestRunner) runContinuousPing(ctx context.Context, peerID, target stri
 	result := TestResult{
 		Timestamp:  time.Now(),
 		TestType:   "ping",
-		TargetNode: peerID, // Use peer ID instead of raw address
+		TargetNode: peerID,
 	}
 
-	// Extract host from target if it contains port
 	host := target
 	if strings.Contains(host, ":") {
 		host, _, _ = net.SplitHostPort(host)
 	}
 
-	// Run ping with timeout
 	cmd := exec.CommandContext(ctx, "ping", "-c", "10", "-i", "0.2", host)
 	output, err := cmd.Output()
 
@@ -172,7 +166,6 @@ func (tr *TestRunner) runContinuousPing(ctx context.Context, peerID, target stri
 		return result
 	}
 
-	// Parse ping output
 	lines := strings.Split(string(output), "\n")
 	for _, line := range lines {
 		if strings.Contains(line, "rtt min/avg/max") {
@@ -214,7 +207,6 @@ func (tr *TestRunner) runIperfTest(ctx context.Context, peer *Peer) TestResult {
 		host, _, _ = net.SplitHostPort(host)
 	}
 
-	// Determine target port based on peer ID
 	targetPort := tr.serverPort
 	if peer.ID == "node2" {
 		targetPort = tr.serverPort + 1
@@ -232,13 +224,12 @@ func (tr *TestRunner) runIperfTest(ctx context.Context, peer *Peer) TestResult {
 			}
 		}
 
-		// Run iperf test
 		cmd := exec.CommandContext(ctx, "iperf3",
 			"-c", host,
 			"-p", strconv.Itoa(targetPort),
-			"-J",      // JSON output
-			"-t", "5", // 5 second test
-			"--connect-timeout", "5000", // 5 second connection timeout
+			"-J",
+			"-t", "5",
+			"--connect-timeout", "5000",
 		)
 
 		output, err := cmd.Output()
@@ -250,15 +241,13 @@ func (tr *TestRunner) runIperfTest(ctx context.Context, peer *Peer) TestResult {
 			continue
 		}
 
-		// Parse results
 		var iperfResult IperfResult
 		if err := json.Unmarshal(output, &iperfResult); err != nil {
 			lastErr = fmt.Errorf("failed to parse iperf output: %v", err)
 			continue
 		}
 
-		// Calculate metrics
-		result.Bandwidth = iperfResult.End.SumSent.BitsPerSecond / 1_000_000 // Convert to Mbps
+		result.Bandwidth = iperfResult.End.SumSent.BitsPerSecond / 1_000_000
 
 		if len(iperfResult.End.Streams) > 0 {
 			stream := iperfResult.End.Streams[0]
@@ -274,6 +263,65 @@ func (tr *TestRunner) runIperfTest(ctx context.Context, peer *Peer) TestResult {
 	result.Error = lastErr.Error()
 	log.Printf("[ERROR] Failed all iperf test attempts to %s: %v", peer.ID, lastErr)
 	return result
+}
+
+// runSpeedTest performs an internet speed test
+func (tr *TestRunner) runSpeedTest(ctx context.Context, peer *Peer) TestResult {
+	result := TestResult{
+		Timestamp:  time.Now(),
+		TestType:   "speedtest",
+		TargetNode: peer.ID,
+	}
+
+	done := make(chan bool, 1)
+
+	go func() {
+		defer func() {
+			done <- true
+		}()
+
+		var client = speedtest.New()
+
+		serverList, err := client.FetchServers()
+		if err != nil {
+			result.Error = fmt.Sprintf("failed to fetch speedtest servers: %v", err)
+			return
+		}
+
+		if len(serverList) < 1 {
+			result.Error = "no speedtest servers found"
+			return
+		}
+
+		server := serverList[0]
+
+		err = server.DownloadTest()
+		if err != nil {
+			result.Error = fmt.Sprintf("download test failed: %v", err)
+			return
+		}
+		result.DownloadMbps = float64(server.DLSpeed) // Convert ByteRate to float64
+
+		err = server.UploadTest()
+		if err != nil {
+			result.Error = fmt.Sprintf("upload test failed: %v", err)
+			return
+		}
+		result.UploadMbps = float64(server.ULSpeed) // Convert ByteRate to float64
+
+		result.Latency = float64(server.Latency.Milliseconds())
+
+		log.Printf("[INFO] Speedtest results for %s: Download: %.2f Mbps, Upload: %.2f Mbps, Latency: %.2f ms",
+			peer.ID, result.DownloadMbps, result.UploadMbps, result.Latency)
+	}()
+
+	select {
+	case <-ctx.Done():
+		result.Error = "speedtest cancelled"
+		return result
+	case <-done:
+		return result
+	}
 }
 
 // GetResultChannel returns the channel for receiving test results

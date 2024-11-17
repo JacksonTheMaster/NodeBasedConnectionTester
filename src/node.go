@@ -16,14 +16,16 @@ import (
 
 // TestResult represents a single test result
 type TestResult struct {
-	Timestamp  time.Time `json:"timestamp"`
-	TestType   string    `json:"testType"` // "iperf", "mlab", "ping"
-	SourceNode string    `json:"sourceNode"`
-	TargetNode string    `json:"targetNode"`
-	Bandwidth  float64   `json:"bandwidth"`  // Mbps
-	Latency    float64   `json:"latency"`    // ms
-	PacketLoss float64   `json:"packetLoss"` // percentage
-	Error      string    `json:"error,omitempty"`
+	Timestamp    time.Time `json:"timestamp"`
+	TestType     string    `json:"testType"` // "iperf", "mlab", "ping"
+	SourceNode   string    `json:"sourceNode"`
+	TargetNode   string    `json:"targetNode"`
+	Bandwidth    float64   `json:"bandwidth"`  // Mbps
+	Latency      float64   `json:"latency"`    // ms
+	PacketLoss   float64   `json:"packetLoss"` // percentage
+	Error        string    `json:"error,omitempty"`
+	DownloadMbps float64   `json:"download_mbps"`
+	UploadMbps   float64   `json:"upload_mbps"`
 }
 
 // Peer represents another node in the network
